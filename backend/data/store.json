@@ -1,0 +1,5804 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "Dr. Sarah Connor",
+      "email": "admin@payguard.io",
+      "passwordHash": "$2a$10$2WB.M02RdFikV1cvy1bBzuuPiC7/f/5F2VmJfsNbUlwdGsXihQF9.",
+      "role": "ADMIN",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80",
+      "createdAt": "2026-09-07T12:49:41.502Z"
+    },
+    {
+      "id": "usr_analyst_01",
+      "name": "Alex Mercer (SOC Lead)",
+      "email": "analyst@payguard.io",
+      "passwordHash": "$2a$10$CTOJ5dQApryAGXQ0YF/93uF1wJ5osi1W5WUP/zF0CmDV4BbKtqYiq",
+      "role": "SECURITY_ANALYST",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80",
+      "createdAt": "2026-09-12T12:49:41.502Z"
+    },
+    {
+      "id": "usr_merch_01",
+      "name": "Vikram Mehta (Store Owner)",
+      "email": "merchant@payguard.io",
+      "passwordHash": "$2a$10$A1K/z6vHzgj8NpNwyWzsWeKxVzTesWbuULCI40VHjSOppLKBPuohK",
+      "role": "MERCHANT",
+      "merchantId": "merch_01",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&q=80",
+      "createdAt": "2026-09-17T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_01",
+      "name": "Priya Sharma (Shopper)",
+      "email": "customer@payguard.io",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80",
+      "createdAt": "2026-09-22T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_2",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-27T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_3",
+      "name": "Neha Gupta",
+      "email": "neha.gupta@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-26T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_4",
+      "name": "Rohan Iyer",
+      "email": "rohan.iyer@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-25T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_5",
+      "name": "Kavita Reddy",
+      "email": "kavita.reddy@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-24T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_6",
+      "name": "Ananya Nair",
+      "email": "ananya.nair@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-23T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_7",
+      "name": "Kabir Joshi",
+      "email": "kabir.joshi@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-22T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_8",
+      "name": "Tanvi Deshmukh",
+      "email": "tanvi.deshmukh@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-21T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_9",
+      "name": "Aditya Verma",
+      "email": "aditya.verma@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-20T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_10",
+      "name": "Meera Bhatt",
+      "email": "meera.bhatt@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-19T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_11",
+      "name": "Karan Malhotra",
+      "email": "karan.malhotra@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-18T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_12",
+      "name": "Ishaan Kapoor",
+      "email": "ishaan.kapoor@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-17T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_13",
+      "name": "Pooja Hegde",
+      "email": "pooja.hegde@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-16T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_14",
+      "name": "Siddharth Rao",
+      "email": "siddharth.rao@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-15T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_15",
+      "name": "Divya Sen",
+      "email": "divya.sen@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-14T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_16",
+      "name": "Arjun Saxena",
+      "email": "arjun.saxena@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-13T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_17",
+      "name": "Rhea Pillai",
+      "email": "rhea.pillai@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-12T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_18",
+      "name": "Varun Dhawan",
+      "email": "varun.dhawan@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-11T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_19",
+      "name": "Anushka Sen",
+      "email": "anushka.sen@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-10T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_20",
+      "name": "Gaurav Gill",
+      "email": "gaurav.gill@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-09T12:49:41.502Z"
+    },
+    {
+      "id": "usr_cust_21",
+      "name": "Sneha Roy",
+      "email": "sneha.roy@example.com",
+      "passwordHash": "$2a$10$eGAEmhVxUefFoq9hlwlLJueb8/rta3DmBgZAB1i3OwSp9A6/KeOxS",
+      "role": "CUSTOMER",
+      "createdAt": "2026-09-08T12:49:41.502Z"
+    }
+  ],
+  "merchants": [
+    {
+      "id": "merch_01",
+      "name": "NovaTech Electronics",
+      "email": "sales@novatech.io",
+      "category": "Electronics & Gadgets",
+      "website": "https://novatech-electronics.demo",
+      "status": "ACTIVE",
+      "riskScore": 14,
+      "trustScore": 92,
+      "securityScore": 94,
+      "webhookUrl": "https://api.novatech.io/webhooks/payguard",
+      "createdAt": "2026-08-08T12:49:41.503Z"
+    },
+    {
+      "id": "merch_02",
+      "name": "UrbanStyle Apparel",
+      "email": "support@urbanstyle.demo",
+      "category": "Fashion & Apparel",
+      "website": "https://urbanstyle.demo",
+      "status": "ACTIVE",
+      "riskScore": 22,
+      "trustScore": 84,
+      "securityScore": 88,
+      "webhookUrl": "https://urbanstyle.demo/api/payments/callback",
+      "createdAt": "2026-08-18T12:49:41.503Z"
+    },
+    {
+      "id": "merch_03",
+      "name": "CloudNode Hosting",
+      "email": "billing@cloudnode.demo",
+      "category": "Cloud Services & SaaS",
+      "website": "https://cloudnode.demo",
+      "status": "ACTIVE",
+      "riskScore": 18,
+      "trustScore": 89,
+      "securityScore": 90,
+      "createdAt": "2026-08-23T12:49:41.503Z"
+    },
+    {
+      "id": "merch_04",
+      "name": "AeroPass Travel & Flights",
+      "email": "reservations@aeropass.demo",
+      "category": "Travel & Airlines",
+      "website": "https://aeropass.demo",
+      "status": "ACTIVE",
+      "riskScore": 28,
+      "trustScore": 78,
+      "securityScore": 82,
+      "createdAt": "2026-08-28T12:49:41.503Z"
+    },
+    {
+      "id": "merch_05",
+      "name": "FreshGrocer Mart",
+      "email": "contact@freshgrocer.demo",
+      "category": "Groceries & FMCG",
+      "website": "https://freshgrocer.demo",
+      "status": "ACTIVE",
+      "riskScore": 8,
+      "trustScore": 96,
+      "securityScore": 95,
+      "createdAt": "2026-09-02T12:49:41.503Z"
+    },
+    {
+      "id": "merch_06",
+      "name": "FitPulse Supplements",
+      "email": "orders@fitpulse.demo",
+      "category": "Health & Wellness",
+      "website": "https://fitpulse.demo",
+      "status": "ACTIVE",
+      "riskScore": 24,
+      "trustScore": 81,
+      "securityScore": 85,
+      "createdAt": "2026-09-07T12:49:41.503Z"
+    },
+    {
+      "id": "merch_07",
+      "name": "GameVault Digital",
+      "email": "keys@gamevault.demo",
+      "category": "Digital Gaming & Keys",
+      "website": "https://gamevault.demo",
+      "status": "ACTIVE",
+      "riskScore": 38,
+      "trustScore": 71,
+      "securityScore": 76,
+      "createdAt": "2026-09-12T12:49:41.503Z"
+    },
+    {
+      "id": "merch_08",
+      "name": "EduLearn Pro Certifications",
+      "email": "admissions@edulearn.demo",
+      "category": "Online Education",
+      "website": "https://edulearn.demo",
+      "status": "ACTIVE",
+      "riskScore": 12,
+      "trustScore": 94,
+      "securityScore": 92,
+      "createdAt": "2026-09-17T12:49:41.503Z"
+    },
+    {
+      "id": "merch_09",
+      "name": "Artisan Decor Studio",
+      "email": "studio@artisandecor.demo",
+      "category": "Home & Living",
+      "website": "https://artisandecor.demo",
+      "status": "ACTIVE",
+      "riskScore": 16,
+      "trustScore": 90,
+      "securityScore": 89,
+      "createdAt": "2026-09-22T12:49:41.503Z"
+    },
+    {
+      "id": "merch_10",
+      "name": "StreamWave Music",
+      "email": "subs@streamwave.demo",
+      "category": "Digital Media Streaming",
+      "website": "https://streamwave.demo",
+      "status": "ACTIVE",
+      "riskScore": 15,
+      "trustScore": 91,
+      "securityScore": 93,
+      "createdAt": "2026-09-27T12:49:41.503Z"
+    },
+    {
+      "id": "merch_suspicious_01",
+      "name": "Apex QuickLoans Direct",
+      "email": "support@apexloans-instant.xyz",
+      "category": "Microfinance (Flagged)",
+      "website": "https://apexloans-instant.xyz",
+      "status": "SUSPENDED",
+      "riskScore": 88,
+      "trustScore": 24,
+      "securityScore": 42,
+      "createdAt": "2026-09-29T12:49:41.503Z"
+    },
+    {
+      "id": "merch_suspicious_02",
+      "name": "QuickRefund Support Gateway",
+      "email": "help@paytm-refund-verify-kyc.xyz",
+      "category": "Deceptive Portal (Phishing)",
+      "website": "https://paytm-refund-verify-kyc.xyz",
+      "status": "SUSPENDED",
+      "riskScore": 95,
+      "trustScore": 12,
+      "securityScore": 28,
+      "createdAt": "2026-10-02T12:49:41.503Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1001",
+      "orderId": "order_PF100001",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "amount": 3499,
+      "currency": "INR",
+      "customerName": "Vikram Mehta (Store Owner)",
+      "customerEmail": "merchant@payguard.io",
+      "customerPhone": "+91 9858401655",
+      "description": "Mechanical Gaming Keyboard RGB",
+      "status": "paid",
+      "createdAt": "2026-09-10T11:49:41.504Z"
+    },
+    {
+      "id": "ord_1002",
+      "orderId": "order_PF100002",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "amount": 28999,
+      "currency": "INR",
+      "customerName": "Priya Sharma (Shopper)",
+      "customerEmail": "customer@payguard.io",
+      "customerPhone": "+91 9821782633",
+      "description": "Curved UltraWide 34-Inch Monitor",
+      "status": "paid",
+      "createdAt": "2026-09-10T10:49:41.504Z"
+    },
+    {
+      "id": "ord_1003",
+      "orderId": "order_PF100003",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "amount": 849,
+      "currency": "INR",
+      "customerName": "Aarav Patel",
+      "customerEmail": "aarav.patel@example.com",
+      "customerPhone": "+91 9838042912",
+      "description": "Organic Cold-Pressed Olive Oil 1L",
+      "status": "paid",
+      "createdAt": "2026-09-11T09:49:41.504Z"
+    },
+    {
+      "id": "ord_1004",
+      "orderId": "order_PF100004",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "amount": 1799,
+      "currency": "INR",
+      "customerName": "Neha Gupta",
+      "customerEmail": "neha.gupta@example.com",
+      "customerPhone": "+91 9897229186",
+      "description": "Urban Tailored Linen Shirt",
+      "status": "paid",
+      "createdAt": "2026-09-11T08:49:41.504Z"
+    },
+    {
+      "id": "ord_1005",
+      "orderId": "order_PF100005",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 8900,
+      "currency": "INR",
+      "customerName": "Rohan Iyer",
+      "customerEmail": "rohan.iyer@example.com",
+      "customerPhone": "+91 9880083872",
+      "description": "Annual Cloud VPS Subscription",
+      "status": "paid",
+      "createdAt": "2026-09-12T07:49:41.504Z"
+    },
+    {
+      "id": "ord_1006",
+      "orderId": "order_PF100006",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "amount": 14500,
+      "currency": "INR",
+      "customerName": "Kavita Reddy",
+      "customerEmail": "kavita.reddy@example.com",
+      "customerPhone": "+91 9875335118",
+      "description": "Full-Stack Cybersecurity Bootcamp Pass",
+      "status": "paid",
+      "createdAt": "2026-09-12T06:49:41.504Z"
+    },
+    {
+      "id": "ord_1007",
+      "orderId": "order_PF100007",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "amount": 36400,
+      "currency": "INR",
+      "customerName": "Ananya Nair",
+      "customerEmail": "ananya.nair@example.com",
+      "customerPhone": "+91 9857016108",
+      "description": "Ergonomic Mesh Task Chair",
+      "status": "failed",
+      "createdAt": "2026-09-13T05:49:41.504Z"
+    },
+    {
+      "id": "ord_1008",
+      "orderId": "order_PF100008",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "amount": 2299,
+      "currency": "INR",
+      "customerName": "Kabir Joshi",
+      "customerEmail": "kabir.joshi@example.com",
+      "customerPhone": "+91 9897423069",
+      "description": "Bluetooth Portable Speaker Waterproof",
+      "status": "paid",
+      "createdAt": "2026-09-13T04:49:41.514Z"
+    },
+    {
+      "id": "ord_1009",
+      "orderId": "order_PF100009",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "amount": 2999,
+      "currency": "INR",
+      "customerName": "Tanvi Deshmukh",
+      "customerEmail": "tanvi.deshmukh@example.com",
+      "customerPhone": "+91 9880962481",
+      "description": "Smart Fitness Tracker Band 7",
+      "status": "failed",
+      "createdAt": "2026-09-14T03:49:41.514Z"
+    },
+    {
+      "id": "ord_1010",
+      "orderId": "order_PF100010",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 18500,
+      "currency": "INR",
+      "customerName": "Aditya Verma",
+      "customerEmail": "aditya.verma@example.com",
+      "customerPhone": "+91 9883180401",
+      "description": "Instant Micro-Loan Processing Fee",
+      "status": "paid",
+      "createdAt": "2026-09-14T02:49:41.514Z"
+    },
+    {
+      "id": "ord_1011",
+      "orderId": "order_PF100011",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "amount": 25000,
+      "currency": "INR",
+      "customerName": "Meera Bhatt",
+      "customerEmail": "meera.bhatt@example.com",
+      "customerPhone": "+91 9868417232",
+      "description": "Emergency Bank Account KYC Re-Activation",
+      "status": "refunded",
+      "createdAt": "2026-09-15T01:49:41.514Z"
+    },
+    {
+      "id": "ord_1012",
+      "orderId": "order_PF100012",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "amount": 4999,
+      "currency": "INR",
+      "customerName": "Karan Malhotra",
+      "customerEmail": "karan.malhotra@example.com",
+      "customerPhone": "+91 9834651004",
+      "description": "Ultra Wireless Noise-Cancelling Headphones",
+      "status": "paid",
+      "createdAt": "2026-09-15T00:49:41.514Z"
+    },
+    {
+      "id": "ord_1013",
+      "orderId": "order_PF100013",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "amount": 3499,
+      "currency": "INR",
+      "customerName": "Ishaan Kapoor",
+      "customerEmail": "ishaan.kapoor@example.com",
+      "customerPhone": "+91 9864797255",
+      "description": "Mechanical Gaming Keyboard RGB",
+      "status": "paid",
+      "createdAt": "2026-09-15T23:49:41.514Z"
+    },
+    {
+      "id": "ord_1014",
+      "orderId": "order_PF100014",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 52999,
+      "currency": "INR",
+      "customerName": "Pooja Hegde",
+      "customerEmail": "pooja.hegde@example.com",
+      "customerPhone": "+91 9861955989",
+      "description": "Curved UltraWide 34-Inch Monitor",
+      "status": "failed",
+      "createdAt": "2026-09-15T22:49:41.514Z"
+    },
+    {
+      "id": "ord_1015",
+      "orderId": "order_PF100015",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 849,
+      "currency": "INR",
+      "customerName": "Siddharth Rao",
+      "customerEmail": "siddharth.rao@example.com",
+      "customerPhone": "+91 9811157556",
+      "description": "Organic Cold-Pressed Olive Oil 1L",
+      "status": "paid",
+      "createdAt": "2026-09-16T21:49:41.514Z"
+    },
+    {
+      "id": "ord_1016",
+      "orderId": "order_PF100016",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "amount": 1799,
+      "currency": "INR",
+      "customerName": "Divya Sen",
+      "customerEmail": "divya.sen@example.com",
+      "customerPhone": "+91 9837421100",
+      "description": "Urban Tailored Linen Shirt",
+      "status": "paid",
+      "createdAt": "2026-09-16T20:49:41.514Z"
+    },
+    {
+      "id": "ord_1017",
+      "orderId": "order_PF100017",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "amount": 8900,
+      "currency": "INR",
+      "customerName": "Arjun Saxena",
+      "customerEmail": "arjun.saxena@example.com",
+      "customerPhone": "+91 9892966964",
+      "description": "Annual Cloud VPS Subscription",
+      "status": "paid",
+      "createdAt": "2026-09-17T19:49:41.514Z"
+    },
+    {
+      "id": "ord_1018",
+      "orderId": "order_PF100018",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "amount": 14500,
+      "currency": "INR",
+      "customerName": "Rhea Pillai",
+      "customerEmail": "rhea.pillai@example.com",
+      "customerPhone": "+91 9838973038",
+      "description": "Full-Stack Cybersecurity Bootcamp Pass",
+      "status": "paid",
+      "createdAt": "2026-09-17T18:49:41.515Z"
+    },
+    {
+      "id": "ord_1019",
+      "orderId": "order_PF100019",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "amount": 12400,
+      "currency": "INR",
+      "customerName": "Varun Dhawan",
+      "customerEmail": "varun.dhawan@example.com",
+      "customerPhone": "+91 9872750279",
+      "description": "Ergonomic Mesh Task Chair",
+      "status": "paid",
+      "createdAt": "2026-09-18T17:49:41.515Z"
+    },
+    {
+      "id": "ord_1020",
+      "orderId": "order_PF100020",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 2299,
+      "currency": "INR",
+      "customerName": "Anushka Sen",
+      "customerEmail": "anushka.sen@example.com",
+      "customerPhone": "+91 9883271986",
+      "description": "Bluetooth Portable Speaker Waterproof",
+      "status": "paid",
+      "createdAt": "2026-09-18T16:49:41.515Z"
+    },
+    {
+      "id": "ord_1021",
+      "orderId": "order_PF100021",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "amount": 26999,
+      "currency": "INR",
+      "customerName": "Gaurav Gill",
+      "customerEmail": "gaurav.gill@example.com",
+      "customerPhone": "+91 9869666412",
+      "description": "Smart Fitness Tracker Band 7",
+      "status": "failed",
+      "createdAt": "2026-09-19T15:49:41.515Z"
+    },
+    {
+      "id": "ord_1022",
+      "orderId": "order_PF100022",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "amount": 18500,
+      "currency": "INR",
+      "customerName": "Sneha Roy",
+      "customerEmail": "sneha.roy@example.com",
+      "customerPhone": "+91 9832205109",
+      "description": "Instant Micro-Loan Processing Fee",
+      "status": "paid",
+      "createdAt": "2026-09-19T14:49:41.515Z"
+    },
+    {
+      "id": "ord_1023",
+      "orderId": "order_PF100023",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "amount": 25000,
+      "currency": "INR",
+      "customerName": "Alex Mercer (SOC Lead)",
+      "customerEmail": "analyst@payguard.io",
+      "customerPhone": "+91 9811197709",
+      "description": "Emergency Bank Account KYC Re-Activation",
+      "status": "refunded",
+      "createdAt": "2026-09-20T13:49:41.515Z"
+    },
+    {
+      "id": "ord_1024",
+      "orderId": "order_PF100024",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "amount": 4999,
+      "currency": "INR",
+      "customerName": "Vikram Mehta (Store Owner)",
+      "customerEmail": "merchant@payguard.io",
+      "customerPhone": "+91 9812270739",
+      "description": "Ultra Wireless Noise-Cancelling Headphones",
+      "status": "paid",
+      "createdAt": "2026-09-20T12:49:41.515Z"
+    },
+    {
+      "id": "ord_1025",
+      "orderId": "order_PF100025",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 3499,
+      "currency": "INR",
+      "customerName": "Priya Sharma (Shopper)",
+      "customerEmail": "customer@payguard.io",
+      "customerPhone": "+91 9872791625",
+      "description": "Mechanical Gaming Keyboard RGB",
+      "status": "paid",
+      "createdAt": "2026-09-21T11:49:41.515Z"
+    },
+    {
+      "id": "ord_1026",
+      "orderId": "order_PF100026",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "amount": 28999,
+      "currency": "INR",
+      "customerName": "Aarav Patel",
+      "customerEmail": "aarav.patel@example.com",
+      "customerPhone": "+91 9885309887",
+      "description": "Curved UltraWide 34-Inch Monitor",
+      "status": "paid",
+      "createdAt": "2026-09-21T10:49:41.515Z"
+    },
+    {
+      "id": "ord_1027",
+      "orderId": "order_PF100027",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "amount": 849,
+      "currency": "INR",
+      "customerName": "Neha Gupta",
+      "customerEmail": "neha.gupta@example.com",
+      "customerPhone": "+91 9893312528",
+      "description": "Organic Cold-Pressed Olive Oil 1L",
+      "status": "paid",
+      "createdAt": "2026-09-22T09:49:41.515Z"
+    },
+    {
+      "id": "ord_1028",
+      "orderId": "order_PF100028",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 25799,
+      "currency": "INR",
+      "customerName": "Rohan Iyer",
+      "customerEmail": "rohan.iyer@example.com",
+      "customerPhone": "+91 9860181948",
+      "description": "Urban Tailored Linen Shirt",
+      "status": "failed",
+      "createdAt": "2026-09-22T08:49:41.515Z"
+    },
+    {
+      "id": "ord_1029",
+      "orderId": "order_PF100029",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "amount": 8900,
+      "currency": "INR",
+      "customerName": "Kavita Reddy",
+      "customerEmail": "kavita.reddy@example.com",
+      "customerPhone": "+91 9840990792",
+      "description": "Annual Cloud VPS Subscription",
+      "status": "paid",
+      "createdAt": "2026-09-23T07:49:41.515Z"
+    },
+    {
+      "id": "ord_1030",
+      "orderId": "order_PF100030",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 14500,
+      "currency": "INR",
+      "customerName": "Ananya Nair",
+      "customerEmail": "ananya.nair@example.com",
+      "customerPhone": "+91 9865319694",
+      "description": "Full-Stack Cybersecurity Bootcamp Pass",
+      "status": "paid",
+      "createdAt": "2026-09-23T06:49:41.515Z"
+    },
+    {
+      "id": "ord_1031",
+      "orderId": "order_PF100031",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "amount": 12400,
+      "currency": "INR",
+      "customerName": "Kabir Joshi",
+      "customerEmail": "kabir.joshi@example.com",
+      "customerPhone": "+91 9854431024",
+      "description": "Ergonomic Mesh Task Chair",
+      "status": "failed",
+      "createdAt": "2026-09-24T05:49:41.515Z"
+    },
+    {
+      "id": "ord_1032",
+      "orderId": "order_PF100032",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "amount": 2299,
+      "currency": "INR",
+      "customerName": "Tanvi Deshmukh",
+      "customerEmail": "tanvi.deshmukh@example.com",
+      "customerPhone": "+91 9875869767",
+      "description": "Bluetooth Portable Speaker Waterproof",
+      "status": "paid",
+      "createdAt": "2026-09-24T04:49:41.515Z"
+    },
+    {
+      "id": "ord_1033",
+      "orderId": "order_PF100033",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "amount": 2999,
+      "currency": "INR",
+      "customerName": "Aditya Verma",
+      "customerEmail": "aditya.verma@example.com",
+      "customerPhone": "+91 9825481891",
+      "description": "Smart Fitness Tracker Band 7",
+      "status": "paid",
+      "createdAt": "2026-09-25T03:49:41.515Z"
+    },
+    {
+      "id": "ord_1034",
+      "orderId": "order_PF100034",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "amount": 18500,
+      "currency": "INR",
+      "customerName": "Meera Bhatt",
+      "customerEmail": "meera.bhatt@example.com",
+      "customerPhone": "+91 9874470080",
+      "description": "Instant Micro-Loan Processing Fee",
+      "status": "paid",
+      "createdAt": "2026-09-25T02:49:41.515Z"
+    },
+    {
+      "id": "ord_1035",
+      "orderId": "order_PF100035",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 49000,
+      "currency": "INR",
+      "customerName": "Karan Malhotra",
+      "customerEmail": "karan.malhotra@example.com",
+      "customerPhone": "+91 9817558492",
+      "description": "Emergency Bank Account KYC Re-Activation",
+      "status": "failed",
+      "createdAt": "2026-09-26T01:49:41.515Z"
+    },
+    {
+      "id": "ord_1036",
+      "orderId": "order_PF100036",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "amount": 4999,
+      "currency": "INR",
+      "customerName": "Ishaan Kapoor",
+      "customerEmail": "ishaan.kapoor@example.com",
+      "customerPhone": "+91 9838305543",
+      "description": "Ultra Wireless Noise-Cancelling Headphones",
+      "status": "paid",
+      "createdAt": "2026-09-26T00:49:41.515Z"
+    },
+    {
+      "id": "ord_1037",
+      "orderId": "order_PF100037",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "amount": 3499,
+      "currency": "INR",
+      "customerName": "Pooja Hegde",
+      "customerEmail": "pooja.hegde@example.com",
+      "customerPhone": "+91 9814676960",
+      "description": "Mechanical Gaming Keyboard RGB",
+      "status": "paid",
+      "createdAt": "2026-09-26T23:49:41.515Z"
+    },
+    {
+      "id": "ord_1038",
+      "orderId": "order_PF100038",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "amount": 28999,
+      "currency": "INR",
+      "customerName": "Siddharth Rao",
+      "customerEmail": "siddharth.rao@example.com",
+      "customerPhone": "+91 9858549729",
+      "description": "Curved UltraWide 34-Inch Monitor",
+      "status": "paid",
+      "createdAt": "2026-09-26T22:49:41.515Z"
+    },
+    {
+      "id": "ord_1039",
+      "orderId": "order_PF100039",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "amount": 849,
+      "currency": "INR",
+      "customerName": "Divya Sen",
+      "customerEmail": "divya.sen@example.com",
+      "customerPhone": "+91 9810987037",
+      "description": "Organic Cold-Pressed Olive Oil 1L",
+      "status": "paid",
+      "createdAt": "2026-09-27T21:49:41.515Z"
+    },
+    {
+      "id": "ord_1040",
+      "orderId": "order_PF100040",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 1799,
+      "currency": "INR",
+      "customerName": "Arjun Saxena",
+      "customerEmail": "arjun.saxena@example.com",
+      "customerPhone": "+91 9818862443",
+      "description": "Urban Tailored Linen Shirt",
+      "status": "paid",
+      "createdAt": "2026-09-27T20:49:41.515Z"
+    },
+    {
+      "id": "ord_1041",
+      "orderId": "order_PF100041",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "amount": 8900,
+      "currency": "INR",
+      "customerName": "Rhea Pillai",
+      "customerEmail": "rhea.pillai@example.com",
+      "customerPhone": "+91 9833384778",
+      "description": "Annual Cloud VPS Subscription",
+      "status": "paid",
+      "createdAt": "2026-09-28T19:49:41.515Z"
+    },
+    {
+      "id": "ord_1042",
+      "orderId": "order_PF100042",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 38500,
+      "currency": "INR",
+      "customerName": "Varun Dhawan",
+      "customerEmail": "varun.dhawan@example.com",
+      "customerPhone": "+91 9852858353",
+      "description": "Full-Stack Cybersecurity Bootcamp Pass",
+      "status": "failed",
+      "createdAt": "2026-09-28T18:49:41.515Z"
+    },
+    {
+      "id": "ord_1043",
+      "orderId": "order_PF100043",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "amount": 12400,
+      "currency": "INR",
+      "customerName": "Anushka Sen",
+      "customerEmail": "anushka.sen@example.com",
+      "customerPhone": "+91 9890681198",
+      "description": "Ergonomic Mesh Task Chair",
+      "status": "paid",
+      "createdAt": "2026-09-29T17:49:41.515Z"
+    },
+    {
+      "id": "ord_1044",
+      "orderId": "order_PF100044",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "amount": 2299,
+      "currency": "INR",
+      "customerName": "Gaurav Gill",
+      "customerEmail": "gaurav.gill@example.com",
+      "customerPhone": "+91 9848042198",
+      "description": "Bluetooth Portable Speaker Waterproof",
+      "status": "paid",
+      "createdAt": "2026-09-29T16:49:41.515Z"
+    },
+    {
+      "id": "ord_1045",
+      "orderId": "order_PF100045",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 2999,
+      "currency": "INR",
+      "customerName": "Sneha Roy",
+      "customerEmail": "sneha.roy@example.com",
+      "customerPhone": "+91 9852344783",
+      "description": "Smart Fitness Tracker Band 7",
+      "status": "paid",
+      "createdAt": "2026-09-30T15:49:41.515Z"
+    },
+    {
+      "id": "ord_1046",
+      "orderId": "order_PF100046",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "amount": 18500,
+      "currency": "INR",
+      "customerName": "Alex Mercer (SOC Lead)",
+      "customerEmail": "analyst@payguard.io",
+      "customerPhone": "+91 9819240725",
+      "description": "Instant Micro-Loan Processing Fee",
+      "status": "paid",
+      "createdAt": "2026-09-30T14:49:41.515Z"
+    },
+    {
+      "id": "ord_1047",
+      "orderId": "order_PF100047",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "amount": 25000,
+      "currency": "INR",
+      "customerName": "Vikram Mehta (Store Owner)",
+      "customerEmail": "merchant@payguard.io",
+      "customerPhone": "+91 9853050077",
+      "description": "Emergency Bank Account KYC Re-Activation",
+      "status": "paid",
+      "createdAt": "2026-10-01T13:49:41.515Z"
+    },
+    {
+      "id": "ord_1048",
+      "orderId": "order_PF100048",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "amount": 4999,
+      "currency": "INR",
+      "customerName": "Priya Sharma (Shopper)",
+      "customerEmail": "customer@payguard.io",
+      "customerPhone": "+91 9833112639",
+      "description": "Ultra Wireless Noise-Cancelling Headphones",
+      "status": "paid",
+      "createdAt": "2026-10-01T12:49:41.515Z"
+    },
+    {
+      "id": "ord_1049",
+      "orderId": "order_PF100049",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "amount": 27499,
+      "currency": "INR",
+      "customerName": "Aarav Patel",
+      "customerEmail": "aarav.patel@example.com",
+      "customerPhone": "+91 9876997916",
+      "description": "Mechanical Gaming Keyboard RGB",
+      "status": "failed",
+      "createdAt": "2026-10-02T11:49:41.515Z"
+    },
+    {
+      "id": "ord_1050",
+      "orderId": "order_PF100050",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 28999,
+      "currency": "INR",
+      "customerName": "Neha Gupta",
+      "customerEmail": "neha.gupta@example.com",
+      "customerPhone": "+91 9867747029",
+      "description": "Curved UltraWide 34-Inch Monitor",
+      "status": "paid",
+      "createdAt": "2026-10-02T10:49:41.515Z"
+    },
+    {
+      "id": "ord_1051",
+      "orderId": "order_PF100051",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "amount": 849,
+      "currency": "INR",
+      "customerName": "Rohan Iyer",
+      "customerEmail": "rohan.iyer@example.com",
+      "customerPhone": "+91 9811046674",
+      "description": "Organic Cold-Pressed Olive Oil 1L",
+      "status": "paid",
+      "createdAt": "2026-10-03T09:49:41.515Z"
+    },
+    {
+      "id": "ord_1052",
+      "orderId": "order_PF100052",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "amount": 1799,
+      "currency": "INR",
+      "customerName": "Kavita Reddy",
+      "customerEmail": "kavita.reddy@example.com",
+      "customerPhone": "+91 9893557314",
+      "description": "Urban Tailored Linen Shirt",
+      "status": "paid",
+      "createdAt": "2026-10-03T08:49:41.515Z"
+    },
+    {
+      "id": "ord_1053",
+      "orderId": "order_PF100053",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "amount": 8900,
+      "currency": "INR",
+      "customerName": "Ananya Nair",
+      "customerEmail": "ananya.nair@example.com",
+      "customerPhone": "+91 9828213924",
+      "description": "Annual Cloud VPS Subscription",
+      "status": "paid",
+      "createdAt": "2026-10-04T07:49:41.515Z"
+    },
+    {
+      "id": "ord_1054",
+      "orderId": "order_PF100054",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "amount": 14500,
+      "currency": "INR",
+      "customerName": "Kabir Joshi",
+      "customerEmail": "kabir.joshi@example.com",
+      "customerPhone": "+91 9894492921",
+      "description": "Full-Stack Cybersecurity Bootcamp Pass",
+      "status": "paid",
+      "createdAt": "2026-10-04T06:49:41.515Z"
+    },
+    {
+      "id": "ord_1055",
+      "orderId": "order_PF100055",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 12400,
+      "currency": "INR",
+      "customerName": "Tanvi Deshmukh",
+      "customerEmail": "tanvi.deshmukh@example.com",
+      "customerPhone": "+91 9883826515",
+      "description": "Ergonomic Mesh Task Chair",
+      "status": "paid",
+      "createdAt": "2026-10-05T05:49:41.515Z"
+    },
+    {
+      "id": "ord_1056",
+      "orderId": "order_PF100056",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 26299,
+      "currency": "INR",
+      "customerName": "Aditya Verma",
+      "customerEmail": "aditya.verma@example.com",
+      "customerPhone": "+91 9830680604",
+      "description": "Bluetooth Portable Speaker Waterproof",
+      "status": "failed",
+      "createdAt": "2026-10-05T04:49:41.515Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_1001",
+      "paymentId": "pay_PF800001",
+      "orderId": "order_PF100001",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "customerName": "Vikram Mehta (Store Owner)",
+      "customerEmail": "merchant@payguard.io",
+      "amount": 3499,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4001",
+      "status": "SUCCESS",
+      "riskScore": 13,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.101.11",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Bengaluru, India",
+      "createdAt": "2026-09-10T11:49:41.504Z"
+    },
+    {
+      "id": "pay_1002",
+      "paymentId": "pay_PF800002",
+      "orderId": "order_PF100002",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "customerName": "Priya Sharma (Shopper)",
+      "customerEmail": "customer@payguard.io",
+      "amount": 28999,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.102.12",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "New Delhi, India",
+      "createdAt": "2026-09-10T10:49:41.504Z"
+    },
+    {
+      "id": "pay_1003",
+      "paymentId": "pay_PF800003",
+      "orderId": "order_PF100003",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "customerName": "Aarav Patel",
+      "customerEmail": "aarav.patel@example.com",
+      "amount": 849,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "SUCCESS",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.103.13",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Hyderabad, India",
+      "createdAt": "2026-09-11T09:49:41.504Z"
+    },
+    {
+      "id": "pay_1004",
+      "paymentId": "pay_PF800004",
+      "orderId": "order_PF100004",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "customerName": "Neha Gupta",
+      "customerEmail": "neha.gupta@example.com",
+      "amount": 1799,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "neha.gupta@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 16,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.104.14",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "Pune, India",
+      "createdAt": "2026-09-11T08:49:41.504Z"
+    },
+    {
+      "id": "pay_1005",
+      "paymentId": "pay_PF800005",
+      "orderId": "order_PF100005",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "customerName": "Rohan Iyer",
+      "customerEmail": "rohan.iyer@example.com",
+      "amount": 8900,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4005",
+      "status": "REVIEW",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.105.15",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Chennai, India",
+      "createdAt": "2026-09-12T07:49:41.504Z"
+    },
+    {
+      "id": "pay_1006",
+      "paymentId": "pay_PF800006",
+      "orderId": "order_PF100006",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "customerName": "Kavita Reddy",
+      "customerEmail": "kavita.reddy@example.com",
+      "amount": 14500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 18,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.106.16",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "Kolkata, India",
+      "createdAt": "2026-09-12T06:49:41.504Z"
+    },
+    {
+      "id": "pay_1007",
+      "paymentId": "pay_PF800007",
+      "orderId": "order_PF100007",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "customerName": "Ananya Nair",
+      "customerEmail": "ananya.nair@example.com",
+      "amount": 36400,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "BLOCKED",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹36,400) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: EduLearn Pro Certifications",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-13T05:49:41.504Z"
+    },
+    {
+      "id": "pay_1008",
+      "paymentId": "pay_PF800008",
+      "orderId": "order_PF100008",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "customerName": "Kabir Joshi",
+      "customerEmail": "kabir.joshi@example.com",
+      "amount": 2299,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "kabir.joshi@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.108.18",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "London, UK",
+      "createdAt": "2026-09-13T04:49:41.514Z"
+    },
+    {
+      "id": "pay_1009",
+      "paymentId": "pay_PF800009",
+      "orderId": "order_PF100009",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "customerName": "Tanvi Deshmukh",
+      "customerEmail": "tanvi.deshmukh@example.com",
+      "amount": 2999,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4009",
+      "status": "FAILED",
+      "riskScore": 28,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Authentication simulator: simulated bank decline"
+      ],
+      "clientIp": "157.34.109.19",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-14T03:49:41.514Z"
+    },
+    {
+      "id": "pay_1010",
+      "paymentId": "pay_PF800010",
+      "orderId": "order_PF100010",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "customerName": "Aditya Verma",
+      "customerEmail": "aditya.verma@example.com",
+      "amount": 18500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "REVIEW",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.110.20",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "Mumbai, India",
+      "createdAt": "2026-09-14T02:49:41.514Z"
+    },
+    {
+      "id": "pay_1011",
+      "paymentId": "pay_PF800011",
+      "orderId": "order_PF100011",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "customerName": "Meera Bhatt",
+      "customerEmail": "meera.bhatt@example.com",
+      "amount": 25000,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "REFUNDED",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Standard consumer profile within baseline limits"
+      ],
+      "clientIp": "157.34.111.21",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Bengaluru, India",
+      "refundedAmount": 25000,
+      "createdAt": "2026-09-15T01:49:41.514Z"
+    },
+    {
+      "id": "pay_1012",
+      "paymentId": "pay_PF800012",
+      "orderId": "order_PF100012",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "customerName": "Karan Malhotra",
+      "customerEmail": "karan.malhotra@example.com",
+      "amount": 4999,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "karan.malhotra@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 24,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.112.22",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "New Delhi, India",
+      "createdAt": "2026-09-15T00:49:41.514Z"
+    },
+    {
+      "id": "pay_1013",
+      "paymentId": "pay_PF800013",
+      "orderId": "order_PF100013",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "customerName": "Ishaan Kapoor",
+      "customerEmail": "ishaan.kapoor@example.com",
+      "amount": 3499,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4013",
+      "status": "SUCCESS",
+      "riskScore": 25,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.113.23",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Hyderabad, India",
+      "createdAt": "2026-09-15T23:49:41.514Z"
+    },
+    {
+      "id": "pay_1014",
+      "paymentId": "pay_PF800014",
+      "orderId": "order_PF100014",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "customerName": "Pooja Hegde",
+      "customerEmail": "pooja.hegde@example.com",
+      "amount": 52999,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "BLOCKED",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹52,999) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-15T22:49:41.514Z"
+    },
+    {
+      "id": "pay_1015",
+      "paymentId": "pay_PF800015",
+      "orderId": "order_PF100015",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "customerName": "Siddharth Rao",
+      "customerEmail": "siddharth.rao@example.com",
+      "amount": 849,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "REVIEW",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.115.25",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Chennai, India",
+      "createdAt": "2026-09-16T21:49:41.514Z"
+    },
+    {
+      "id": "pay_1016",
+      "paymentId": "pay_PF800016",
+      "orderId": "order_PF100016",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "customerName": "Divya Sen",
+      "customerEmail": "divya.sen@example.com",
+      "amount": 1799,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "divya.sen@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 13,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.116.26",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "Kolkata, India",
+      "createdAt": "2026-09-16T20:49:41.514Z"
+    },
+    {
+      "id": "pay_1017",
+      "paymentId": "pay_PF800017",
+      "orderId": "order_PF100017",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "customerName": "Arjun Saxena",
+      "customerEmail": "arjun.saxena@example.com",
+      "amount": 8900,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4017",
+      "status": "SUCCESS",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.117.27",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Jaipur, India",
+      "createdAt": "2026-09-17T19:49:41.514Z"
+    },
+    {
+      "id": "pay_1018",
+      "paymentId": "pay_PF800018",
+      "orderId": "order_PF100018",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "customerName": "Rhea Pillai",
+      "customerEmail": "rhea.pillai@example.com",
+      "amount": 14500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.118.28",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "London, UK",
+      "createdAt": "2026-09-17T18:49:41.515Z"
+    },
+    {
+      "id": "pay_1019",
+      "paymentId": "pay_PF800019",
+      "orderId": "order_PF100019",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "customerName": "Varun Dhawan",
+      "customerEmail": "varun.dhawan@example.com",
+      "amount": 12400,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "SUCCESS",
+      "riskScore": 16,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.119.29",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-18T17:49:41.515Z"
+    },
+    {
+      "id": "pay_1020",
+      "paymentId": "pay_PF800020",
+      "orderId": "order_PF100020",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "customerName": "Anushka Sen",
+      "customerEmail": "anushka.sen@example.com",
+      "amount": 2299,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "anushka.sen@okhdfcbank",
+      "status": "REVIEW",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.120.30",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "Mumbai, India",
+      "createdAt": "2026-09-18T16:49:41.515Z"
+    },
+    {
+      "id": "pay_1021",
+      "paymentId": "pay_PF800021",
+      "orderId": "order_PF100021",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "customerName": "Gaurav Gill",
+      "customerEmail": "gaurav.gill@example.com",
+      "amount": 26999,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4021",
+      "status": "BLOCKED",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹26,999) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: UrbanStyle Apparel",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-19T15:49:41.515Z"
+    },
+    {
+      "id": "pay_1022",
+      "paymentId": "pay_PF800022",
+      "orderId": "order_PF100022",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "customerName": "Sneha Roy",
+      "customerEmail": "sneha.roy@example.com",
+      "amount": 18500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 19,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.122.32",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "New Delhi, India",
+      "createdAt": "2026-09-19T14:49:41.515Z"
+    },
+    {
+      "id": "pay_1023",
+      "paymentId": "pay_PF800023",
+      "orderId": "order_PF100023",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "customerName": "Alex Mercer (SOC Lead)",
+      "customerEmail": "analyst@payguard.io",
+      "amount": 25000,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "REFUNDED",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Standard consumer profile within baseline limits"
+      ],
+      "clientIp": "157.34.123.33",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Hyderabad, India",
+      "refundedAmount": 25000,
+      "createdAt": "2026-09-20T13:49:41.515Z"
+    },
+    {
+      "id": "pay_1024",
+      "paymentId": "pay_PF800024",
+      "orderId": "order_PF100024",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "customerName": "Vikram Mehta (Store Owner)",
+      "customerEmail": "merchant@payguard.io",
+      "amount": 4999,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "merchant@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 21,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.124.34",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "Pune, India",
+      "createdAt": "2026-09-20T12:49:41.515Z"
+    },
+    {
+      "id": "pay_1025",
+      "paymentId": "pay_PF800025",
+      "orderId": "order_PF100025",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "customerName": "Priya Sharma (Shopper)",
+      "customerEmail": "customer@payguard.io",
+      "amount": 3499,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4025",
+      "status": "REVIEW",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.125.35",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Chennai, India",
+      "createdAt": "2026-09-21T11:49:41.515Z"
+    },
+    {
+      "id": "pay_1026",
+      "paymentId": "pay_PF800026",
+      "orderId": "order_PF100026",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "customerName": "Aarav Patel",
+      "customerEmail": "aarav.patel@example.com",
+      "amount": 28999,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 23,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.126.36",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "Kolkata, India",
+      "createdAt": "2026-09-21T10:49:41.515Z"
+    },
+    {
+      "id": "pay_1027",
+      "paymentId": "pay_PF800027",
+      "orderId": "order_PF100027",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "customerName": "Neha Gupta",
+      "customerEmail": "neha.gupta@example.com",
+      "amount": 849,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "SUCCESS",
+      "riskScore": 24,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.127.37",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Jaipur, India",
+      "createdAt": "2026-09-22T09:49:41.515Z"
+    },
+    {
+      "id": "pay_1028",
+      "paymentId": "pay_PF800028",
+      "orderId": "order_PF100028",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "customerName": "Rohan Iyer",
+      "customerEmail": "rohan.iyer@example.com",
+      "amount": 25799,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "rohan.iyer@okhdfcbank",
+      "status": "BLOCKED",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹25,799) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-22T08:49:41.515Z"
+    },
+    {
+      "id": "pay_1029",
+      "paymentId": "pay_PF800029",
+      "orderId": "order_PF100029",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "customerName": "Kavita Reddy",
+      "customerEmail": "kavita.reddy@example.com",
+      "amount": 8900,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4029",
+      "status": "SUCCESS",
+      "riskScore": 26,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.129.39",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-23T07:49:41.515Z"
+    },
+    {
+      "id": "pay_1030",
+      "paymentId": "pay_PF800030",
+      "orderId": "order_PF100030",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "customerName": "Ananya Nair",
+      "customerEmail": "ananya.nair@example.com",
+      "amount": 14500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "REVIEW",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.130.40",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "Mumbai, India",
+      "createdAt": "2026-09-23T06:49:41.515Z"
+    },
+    {
+      "id": "pay_1031",
+      "paymentId": "pay_PF800031",
+      "orderId": "order_PF100031",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "customerName": "Kabir Joshi",
+      "customerEmail": "kabir.joshi@example.com",
+      "amount": 12400,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "FAILED",
+      "riskScore": 28,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Authentication simulator: simulated bank decline"
+      ],
+      "clientIp": "157.34.131.41",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Bengaluru, India",
+      "createdAt": "2026-09-24T05:49:41.515Z"
+    },
+    {
+      "id": "pay_1032",
+      "paymentId": "pay_PF800032",
+      "orderId": "order_PF100032",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "customerName": "Tanvi Deshmukh",
+      "customerEmail": "tanvi.deshmukh@example.com",
+      "amount": 2299,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "tanvi.deshmukh@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.132.42",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "New Delhi, India",
+      "createdAt": "2026-09-24T04:49:41.515Z"
+    },
+    {
+      "id": "pay_1033",
+      "paymentId": "pay_PF800033",
+      "orderId": "order_PF100033",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "customerName": "Aditya Verma",
+      "customerEmail": "aditya.verma@example.com",
+      "amount": 2999,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4033",
+      "status": "SUCCESS",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.133.43",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Hyderabad, India",
+      "createdAt": "2026-09-25T03:49:41.515Z"
+    },
+    {
+      "id": "pay_1034",
+      "paymentId": "pay_PF800034",
+      "orderId": "order_PF100034",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "customerName": "Meera Bhatt",
+      "customerEmail": "meera.bhatt@example.com",
+      "amount": 18500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 16,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.134.44",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "Pune, India",
+      "createdAt": "2026-09-25T02:49:41.515Z"
+    },
+    {
+      "id": "pay_1035",
+      "paymentId": "pay_PF800035",
+      "orderId": "order_PF100035",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "customerName": "Karan Malhotra",
+      "customerEmail": "karan.malhotra@example.com",
+      "amount": 49000,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "BLOCKED",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹49,000) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: FitPulse Supplements",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-26T01:49:41.515Z"
+    },
+    {
+      "id": "pay_1036",
+      "paymentId": "pay_PF800036",
+      "orderId": "order_PF100036",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "customerName": "Ishaan Kapoor",
+      "customerEmail": "ishaan.kapoor@example.com",
+      "amount": 4999,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "ishaan.kapoor@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 18,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.136.46",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "Kolkata, India",
+      "createdAt": "2026-09-26T00:49:41.515Z"
+    },
+    {
+      "id": "pay_1037",
+      "paymentId": "pay_PF800037",
+      "orderId": "order_PF100037",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "customerName": "Pooja Hegde",
+      "customerEmail": "pooja.hegde@example.com",
+      "amount": 3499,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4037",
+      "status": "SUCCESS",
+      "riskScore": 19,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.137.47",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Jaipur, India",
+      "createdAt": "2026-09-26T23:49:41.515Z"
+    },
+    {
+      "id": "pay_1038",
+      "paymentId": "pay_PF800038",
+      "orderId": "order_PF100038",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "customerName": "Siddharth Rao",
+      "customerEmail": "siddharth.rao@example.com",
+      "amount": 28999,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.138.48",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "London, UK",
+      "createdAt": "2026-09-26T22:49:41.515Z"
+    },
+    {
+      "id": "pay_1039",
+      "paymentId": "pay_PF800039",
+      "orderId": "order_PF100039",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "customerName": "Divya Sen",
+      "customerEmail": "divya.sen@example.com",
+      "amount": 849,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "SUCCESS",
+      "riskScore": 21,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.139.49",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-27T21:49:41.515Z"
+    },
+    {
+      "id": "pay_1040",
+      "paymentId": "pay_PF800040",
+      "orderId": "order_PF100040",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "customerName": "Arjun Saxena",
+      "customerEmail": "arjun.saxena@example.com",
+      "amount": 1799,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "arjun.saxena@okhdfcbank",
+      "status": "REVIEW",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.140.50",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "Mumbai, India",
+      "createdAt": "2026-09-27T20:49:41.515Z"
+    },
+    {
+      "id": "pay_1041",
+      "paymentId": "pay_PF800041",
+      "orderId": "order_PF100041",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "customerName": "Rhea Pillai",
+      "customerEmail": "rhea.pillai@example.com",
+      "amount": 8900,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4041",
+      "status": "SUCCESS",
+      "riskScore": 23,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.141.51",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Bengaluru, India",
+      "createdAt": "2026-09-28T19:49:41.515Z"
+    },
+    {
+      "id": "pay_1042",
+      "paymentId": "pay_PF800042",
+      "orderId": "order_PF100042",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "customerName": "Varun Dhawan",
+      "customerEmail": "varun.dhawan@example.com",
+      "amount": 38500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "BLOCKED",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹38,500) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-09-28T18:49:41.515Z"
+    },
+    {
+      "id": "pay_1043",
+      "paymentId": "pay_PF800043",
+      "orderId": "order_PF100043",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "customerName": "Anushka Sen",
+      "customerEmail": "anushka.sen@example.com",
+      "amount": 12400,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "SUCCESS",
+      "riskScore": 25,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.143.53",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Hyderabad, India",
+      "createdAt": "2026-09-29T17:49:41.515Z"
+    },
+    {
+      "id": "pay_1044",
+      "paymentId": "pay_PF800044",
+      "orderId": "order_PF100044",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "customerName": "Gaurav Gill",
+      "customerEmail": "gaurav.gill@example.com",
+      "amount": 2299,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "gaurav.gill@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 26,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.144.54",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "Pune, India",
+      "createdAt": "2026-09-29T16:49:41.515Z"
+    },
+    {
+      "id": "pay_1045",
+      "paymentId": "pay_PF800045",
+      "orderId": "order_PF100045",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "customerName": "Sneha Roy",
+      "customerEmail": "sneha.roy@example.com",
+      "amount": 2999,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4045",
+      "status": "REVIEW",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.145.55",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Chennai, India",
+      "createdAt": "2026-09-30T15:49:41.515Z"
+    },
+    {
+      "id": "pay_1046",
+      "paymentId": "pay_PF800046",
+      "orderId": "order_PF100046",
+      "merchantId": "merch_07",
+      "merchantName": "GameVault Digital",
+      "customerName": "Alex Mercer (SOC Lead)",
+      "customerEmail": "analyst@payguard.io",
+      "amount": 18500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 13,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.146.56",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "Kolkata, India",
+      "createdAt": "2026-09-30T14:49:41.515Z"
+    },
+    {
+      "id": "pay_1047",
+      "paymentId": "pay_PF800047",
+      "orderId": "order_PF100047",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "customerName": "Vikram Mehta (Store Owner)",
+      "customerEmail": "merchant@payguard.io",
+      "amount": 25000,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "SUCCESS",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.147.57",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Jaipur, India",
+      "createdAt": "2026-10-01T13:49:41.515Z"
+    },
+    {
+      "id": "pay_1048",
+      "paymentId": "pay_PF800048",
+      "orderId": "order_PF100048",
+      "merchantId": "merch_09",
+      "merchantName": "Artisan Decor Studio",
+      "customerName": "Priya Sharma (Shopper)",
+      "customerEmail": "customer@payguard.io",
+      "amount": 4999,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "customer@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.148.58",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "London, UK",
+      "createdAt": "2026-10-01T12:49:41.515Z"
+    },
+    {
+      "id": "pay_1049",
+      "paymentId": "pay_PF800049",
+      "orderId": "order_PF100049",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "customerName": "Aarav Patel",
+      "customerEmail": "aarav.patel@example.com",
+      "amount": 27499,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4049",
+      "status": "BLOCKED",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹27,499) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: StreamWave Music",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-10-02T11:49:41.515Z"
+    },
+    {
+      "id": "pay_1050",
+      "paymentId": "pay_PF800050",
+      "orderId": "order_PF100050",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "customerName": "Neha Gupta",
+      "customerEmail": "neha.gupta@example.com",
+      "amount": 28999,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "REVIEW",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.100.60",
+      "device": "iPhone 15 Pro (Safari Mobile)",
+      "browser": "Chrome 122.0",
+      "location": "Mumbai, India",
+      "createdAt": "2026-10-02T10:49:41.515Z"
+    },
+    {
+      "id": "pay_1051",
+      "paymentId": "pay_PF800051",
+      "orderId": "order_PF100051",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "customerName": "Rohan Iyer",
+      "customerEmail": "rohan.iyer@example.com",
+      "amount": 849,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "SUCCESS",
+      "riskScore": 18,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.101.61",
+      "device": "Samsung Galaxy S24 Ultra",
+      "browser": "Chrome 122.0",
+      "location": "Bengaluru, India",
+      "createdAt": "2026-10-03T09:49:41.515Z"
+    },
+    {
+      "id": "pay_1052",
+      "paymentId": "pay_PF800052",
+      "orderId": "order_PF100052",
+      "merchantId": "merch_03",
+      "merchantName": "CloudNode Hosting",
+      "customerName": "Kavita Reddy",
+      "customerEmail": "kavita.reddy@example.com",
+      "amount": 1799,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "kavita.reddy@okhdfcbank",
+      "status": "SUCCESS",
+      "riskScore": 19,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.102.62",
+      "device": "Pixel 8 Pro (Android 14)",
+      "browser": "Chrome 122.0",
+      "location": "New Delhi, India",
+      "createdAt": "2026-10-03T08:49:41.515Z"
+    },
+    {
+      "id": "pay_1053",
+      "paymentId": "pay_PF800053",
+      "orderId": "order_PF100053",
+      "merchantId": "merch_04",
+      "merchantName": "AeroPass Travel & Flights",
+      "customerName": "Ananya Nair",
+      "customerEmail": "ananya.nair@example.com",
+      "amount": 8900,
+      "currency": "INR",
+      "method": "Card",
+      "cardLast4": "4053",
+      "status": "SUCCESS",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.103.63",
+      "device": "Ubuntu 22.04 LTS (Firefox)",
+      "browser": "Chrome 122.0",
+      "location": "Hyderabad, India",
+      "createdAt": "2026-10-04T07:49:41.515Z"
+    },
+    {
+      "id": "pay_1054",
+      "paymentId": "pay_PF800054",
+      "orderId": "order_PF100054",
+      "merchantId": "merch_05",
+      "merchantName": "FreshGrocer Mart",
+      "customerName": "Kabir Joshi",
+      "customerEmail": "kabir.joshi@example.com",
+      "amount": 14500,
+      "currency": "INR",
+      "method": "Net Banking",
+      "bankName": "State Bank of India",
+      "status": "SUCCESS",
+      "riskScore": 21,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "clientIp": "157.34.104.64",
+      "device": "MacBook Pro 16\" (macOS 14)",
+      "browser": "Chrome 122.0",
+      "location": "Pune, India",
+      "createdAt": "2026-10-04T06:49:41.515Z"
+    },
+    {
+      "id": "pay_1055",
+      "paymentId": "pay_PF800055",
+      "orderId": "order_PF100055",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "customerName": "Tanvi Deshmukh",
+      "customerEmail": "tanvi.deshmukh@example.com",
+      "amount": 12400,
+      "currency": "INR",
+      "method": "Wallet",
+      "walletProvider": "PayGuard Cash",
+      "status": "REVIEW",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "clientIp": "157.34.105.65",
+      "device": "Windows 11 PC (Chrome 122)",
+      "browser": "Chrome 122.0",
+      "location": "Chennai, India",
+      "createdAt": "2026-10-05T05:49:41.515Z"
+    },
+    {
+      "id": "pay_1056",
+      "paymentId": "pay_PF800056",
+      "orderId": "order_PF100056",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "customerName": "Aditya Verma",
+      "customerEmail": "aditya.verma@example.com",
+      "amount": 26299,
+      "currency": "INR",
+      "method": "UPI",
+      "upiId": "aditya.verma@okhdfcbank",
+      "status": "BLOCKED",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹26,299) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "clientIp": "185.220.101.5",
+      "device": "Headless Linux Puppeteer Bot",
+      "browser": "Chrome 122.0",
+      "location": "Frankfurt, Germany",
+      "createdAt": "2026-10-05T04:49:41.515Z"
+    }
+  ],
+  "fraudAnalyses": [
+    {
+      "id": "fa_1001",
+      "paymentId": "pay_PF800001",
+      "riskScore": 13,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 84,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-10T11:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100001 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-10T11:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-10T11:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Score: 13/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-10T11:49:41.504Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-10T11:49:41.504Z"
+    },
+    {
+      "id": "fa_1002",
+      "paymentId": "pay_PF800002",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 89,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-10T10:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100002 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-10T10:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-10T10:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Score: 14/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-10T10:49:41.504Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-10T10:49:41.504Z"
+    },
+    {
+      "id": "fa_1003",
+      "paymentId": "pay_PF800003",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 78,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-11T09:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100003 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-11T09:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-11T09:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Score: 15/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-11T09:49:41.504Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-11T09:49:41.504Z"
+    },
+    {
+      "id": "fa_1004",
+      "paymentId": "pay_PF800004",
+      "riskScore": 16,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 96,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-11T08:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100004 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-11T08:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-11T08:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Score: 16/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-11T08:49:41.504Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-11T08:49:41.504Z"
+    },
+    {
+      "id": "fa_1005",
+      "paymentId": "pay_PF800005",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 81,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-12T07:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100005 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-12T07:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-12T07:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Score: 70/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-12T07:49:41.504Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-12T07:49:41.504Z"
+    },
+    {
+      "id": "fa_1006",
+      "paymentId": "pay_PF800006",
+      "riskScore": 18,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 71,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-12T06:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100006 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-12T06:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-12T06:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Score: 18/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-12T06:49:41.504Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-12T06:49:41.504Z"
+    },
+    {
+      "id": "fa_1007",
+      "paymentId": "pay_PF800007",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹36,400) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: EduLearn Pro Certifications",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹36,400 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant EduLearn Pro Certifications flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 94,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-13T05:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100007 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-13T05:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-13T05:49:41.504Z",
+          "status": "COMPLETED",
+          "detail": "Score: 91/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-13T05:49:41.504Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-09-13T05:49:41.504Z"
+    },
+    {
+      "id": "fa_1008",
+      "paymentId": "pay_PF800008",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 90,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-13T04:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100008 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-13T04:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-13T04:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 20/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-13T04:49:41.514Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-13T04:49:41.514Z"
+    },
+    {
+      "id": "fa_1009",
+      "paymentId": "pay_PF800009",
+      "riskScore": 28,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Authentication simulator: simulated bank decline"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 91,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-14T03:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100009 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-14T03:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-14T03:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 28/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-14T03:49:41.514Z",
+          "status": "FAILED",
+          "detail": "Gate Decision: FAILED"
+        }
+      ],
+      "createdAt": "2026-09-14T03:49:41.514Z"
+    },
+    {
+      "id": "fa_1010",
+      "paymentId": "pay_PF800010",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 92,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-14T02:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100010 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-14T02:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-14T02:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 65/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-14T02:49:41.514Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-14T02:49:41.514Z"
+    },
+    {
+      "id": "fa_1011",
+      "paymentId": "pay_PF800011",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Standard consumer profile within baseline limits"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 84,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-15T01:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100011 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-15T01:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-15T01:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 20/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-15T01:49:41.514Z",
+          "status": "REFUNDED",
+          "detail": "Gate Decision: REFUNDED"
+        }
+      ],
+      "createdAt": "2026-09-15T01:49:41.514Z"
+    },
+    {
+      "id": "fa_1012",
+      "paymentId": "pay_PF800012",
+      "riskScore": 24,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 89,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-15T00:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100012 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-15T00:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-15T00:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 24/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-15T00:49:41.514Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-15T00:49:41.514Z"
+    },
+    {
+      "id": "fa_1013",
+      "paymentId": "pay_PF800013",
+      "riskScore": 25,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 78,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-15T23:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100013 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-15T23:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-15T23:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 25/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-15T23:49:41.514Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-15T23:49:41.514Z"
+    },
+    {
+      "id": "fa_1014",
+      "paymentId": "pay_PF800014",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹52,999) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹52,999 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant Apex QuickLoans Direct flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 24,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-15T22:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100014 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-15T22:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-15T22:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 84/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-15T22:49:41.514Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-09-15T22:49:41.514Z"
+    },
+    {
+      "id": "fa_1015",
+      "paymentId": "pay_PF800015",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 81,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-16T21:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100015 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-16T21:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-16T21:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 70/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-16T21:49:41.514Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-16T21:49:41.514Z"
+    },
+    {
+      "id": "fa_1016",
+      "paymentId": "pay_PF800016",
+      "riskScore": 13,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 71,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-16T20:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100016 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-16T20:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-16T20:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 13/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-16T20:49:41.514Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-16T20:49:41.514Z"
+    },
+    {
+      "id": "fa_1017",
+      "paymentId": "pay_PF800017",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 94,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-17T19:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100017 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-17T19:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-17T19:49:41.514Z",
+          "status": "COMPLETED",
+          "detail": "Score: 14/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-17T19:49:41.514Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-17T19:49:41.514Z"
+    },
+    {
+      "id": "fa_1018",
+      "paymentId": "pay_PF800018",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 90,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-17T18:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100018 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-17T18:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-17T18:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 15/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-17T18:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-17T18:49:41.515Z"
+    },
+    {
+      "id": "fa_1019",
+      "paymentId": "pay_PF800019",
+      "riskScore": 16,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 91,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-18T17:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100019 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-18T17:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-18T17:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 16/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-18T17:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-18T17:49:41.515Z"
+    },
+    {
+      "id": "fa_1020",
+      "paymentId": "pay_PF800020",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 92,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-18T16:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100020 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-18T16:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-18T16:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 65/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-18T16:49:41.515Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-18T16:49:41.515Z"
+    },
+    {
+      "id": "fa_1021",
+      "paymentId": "pay_PF800021",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹26,999) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: UrbanStyle Apparel",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹26,999 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant UrbanStyle Apparel flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 84,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-19T15:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100021 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-19T15:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-19T15:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 91/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-19T15:49:41.515Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-09-19T15:49:41.515Z"
+    },
+    {
+      "id": "fa_1022",
+      "paymentId": "pay_PF800022",
+      "riskScore": 19,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 89,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-19T14:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100022 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-19T14:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-19T14:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 19/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-19T14:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-19T14:49:41.515Z"
+    },
+    {
+      "id": "fa_1023",
+      "paymentId": "pay_PF800023",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Standard consumer profile within baseline limits"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 78,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-20T13:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100023 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-20T13:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-20T13:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 20/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-20T13:49:41.515Z",
+          "status": "REFUNDED",
+          "detail": "Gate Decision: REFUNDED"
+        }
+      ],
+      "createdAt": "2026-09-20T13:49:41.515Z"
+    },
+    {
+      "id": "fa_1024",
+      "paymentId": "pay_PF800024",
+      "riskScore": 21,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 96,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-20T12:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100024 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-20T12:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-20T12:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 21/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-20T12:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-20T12:49:41.515Z"
+    },
+    {
+      "id": "fa_1025",
+      "paymentId": "pay_PF800025",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 81,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-21T11:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100025 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-21T11:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-21T11:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 70/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-21T11:49:41.515Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-21T11:49:41.515Z"
+    },
+    {
+      "id": "fa_1026",
+      "paymentId": "pay_PF800026",
+      "riskScore": 23,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 71,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-21T10:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100026 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-21T10:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-21T10:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 23/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-21T10:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-21T10:49:41.515Z"
+    },
+    {
+      "id": "fa_1027",
+      "paymentId": "pay_PF800027",
+      "riskScore": 24,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 94,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-22T09:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100027 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-22T09:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-22T09:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 24/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-22T09:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-22T09:49:41.515Z"
+    },
+    {
+      "id": "fa_1028",
+      "paymentId": "pay_PF800028",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹25,799) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹25,799 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant Apex QuickLoans Direct flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 24,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-22T08:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100028 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-22T08:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-22T08:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 84/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-22T08:49:41.515Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-09-22T08:49:41.515Z"
+    },
+    {
+      "id": "fa_1029",
+      "paymentId": "pay_PF800029",
+      "riskScore": 26,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 91,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-23T07:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100029 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-23T07:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-23T07:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 26/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-23T07:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-23T07:49:41.515Z"
+    },
+    {
+      "id": "fa_1030",
+      "paymentId": "pay_PF800030",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 92,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-23T06:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100030 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-23T06:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-23T06:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 65/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-23T06:49:41.515Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-23T06:49:41.515Z"
+    },
+    {
+      "id": "fa_1031",
+      "paymentId": "pay_PF800031",
+      "riskScore": 28,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Authentication simulator: simulated bank decline"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 84,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-24T05:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100031 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-24T05:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-24T05:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 28/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-24T05:49:41.515Z",
+          "status": "FAILED",
+          "detail": "Gate Decision: FAILED"
+        }
+      ],
+      "createdAt": "2026-09-24T05:49:41.515Z"
+    },
+    {
+      "id": "fa_1032",
+      "paymentId": "pay_PF800032",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 89,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-24T04:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100032 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-24T04:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-24T04:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 14/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-24T04:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-24T04:49:41.515Z"
+    },
+    {
+      "id": "fa_1033",
+      "paymentId": "pay_PF800033",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 78,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-25T03:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100033 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-25T03:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-25T03:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 15/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-25T03:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-25T03:49:41.515Z"
+    },
+    {
+      "id": "fa_1034",
+      "paymentId": "pay_PF800034",
+      "riskScore": 16,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 96,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-25T02:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100034 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-25T02:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-25T02:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 16/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-25T02:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-25T02:49:41.515Z"
+    },
+    {
+      "id": "fa_1035",
+      "paymentId": "pay_PF800035",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹49,000) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: FitPulse Supplements",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹49,000 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant FitPulse Supplements flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 81,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-26T01:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100035 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-26T01:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-26T01:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 91/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-26T01:49:41.515Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-09-26T01:49:41.515Z"
+    },
+    {
+      "id": "fa_1036",
+      "paymentId": "pay_PF800036",
+      "riskScore": 18,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 71,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-26T00:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100036 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-26T00:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-26T00:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 18/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-26T00:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-26T00:49:41.515Z"
+    },
+    {
+      "id": "fa_1037",
+      "paymentId": "pay_PF800037",
+      "riskScore": 19,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 94,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-26T23:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100037 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-26T23:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-26T23:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 19/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-26T23:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-26T23:49:41.515Z"
+    },
+    {
+      "id": "fa_1038",
+      "paymentId": "pay_PF800038",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 90,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-26T22:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100038 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-26T22:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-26T22:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 20/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-26T22:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-26T22:49:41.515Z"
+    },
+    {
+      "id": "fa_1039",
+      "paymentId": "pay_PF800039",
+      "riskScore": 21,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 91,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-27T21:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100039 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-27T21:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-27T21:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 21/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-27T21:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-27T21:49:41.515Z"
+    },
+    {
+      "id": "fa_1040",
+      "paymentId": "pay_PF800040",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 92,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-27T20:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100040 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-27T20:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-27T20:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 65/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-27T20:49:41.515Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-27T20:49:41.515Z"
+    },
+    {
+      "id": "fa_1041",
+      "paymentId": "pay_PF800041",
+      "riskScore": 23,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 84,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-28T19:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100041 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-28T19:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-28T19:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 23/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-28T19:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-28T19:49:41.515Z"
+    },
+    {
+      "id": "fa_1042",
+      "paymentId": "pay_PF800042",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹38,500) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹38,500 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant Apex QuickLoans Direct flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 24,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-28T18:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100042 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-28T18:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-28T18:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 84/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-28T18:49:41.515Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-09-28T18:49:41.515Z"
+    },
+    {
+      "id": "fa_1043",
+      "paymentId": "pay_PF800043",
+      "riskScore": 25,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 78,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-29T17:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100043 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-29T17:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-29T17:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 25/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-29T17:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-29T17:49:41.515Z"
+    },
+    {
+      "id": "fa_1044",
+      "paymentId": "pay_PF800044",
+      "riskScore": 26,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 96,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-29T16:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100044 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-29T16:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-29T16:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 26/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-29T16:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-29T16:49:41.515Z"
+    },
+    {
+      "id": "fa_1045",
+      "paymentId": "pay_PF800045",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 81,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-30T15:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100045 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-30T15:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-30T15:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 70/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-30T15:49:41.515Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-09-30T15:49:41.515Z"
+    },
+    {
+      "id": "fa_1046",
+      "paymentId": "pay_PF800046",
+      "riskScore": 13,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 71,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-09-30T14:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100046 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-09-30T14:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-09-30T14:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 13/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-09-30T14:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-09-30T14:49:41.515Z"
+    },
+    {
+      "id": "fa_1047",
+      "paymentId": "pay_PF800047",
+      "riskScore": 14,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 94,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-01T13:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100047 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-01T13:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-01T13:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 14/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-01T13:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-10-01T13:49:41.515Z"
+    },
+    {
+      "id": "fa_1048",
+      "paymentId": "pay_PF800048",
+      "riskScore": 15,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 90,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-01T12:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100048 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-01T12:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-01T12:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 15/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-01T12:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-10-01T12:49:41.515Z"
+    },
+    {
+      "id": "fa_1049",
+      "paymentId": "pay_PF800049",
+      "riskScore": 91,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹27,499) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: StreamWave Music",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹27,499 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant StreamWave Music flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 91,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-02T11:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100049 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-02T11:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-02T11:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 91/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-02T11:49:41.515Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-10-02T11:49:41.515Z"
+    },
+    {
+      "id": "fa_1050",
+      "paymentId": "pay_PF800050",
+      "riskScore": 65,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 92,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-02T10:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100050 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-02T10:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: iPhone 15 Pro (Safari Mobile)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-02T10:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 65/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-02T10:49:41.515Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-10-02T10:49:41.515Z"
+    },
+    {
+      "id": "fa_1051",
+      "paymentId": "pay_PF800051",
+      "riskScore": 18,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 84,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-03T09:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100051 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-03T09:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Samsung Galaxy S24 Ultra"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-03T09:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 18/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-03T09:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-10-03T09:49:41.515Z"
+    },
+    {
+      "id": "fa_1052",
+      "paymentId": "pay_PF800052",
+      "riskScore": 19,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 89,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-03T08:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100052 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-03T08:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Pixel 8 Pro (Android 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-03T08:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 19/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-03T08:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-10-03T08:49:41.515Z"
+    },
+    {
+      "id": "fa_1053",
+      "paymentId": "pay_PF800053",
+      "riskScore": 20,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 78,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-04T07:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100053 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-04T07:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Ubuntu 22.04 LTS (Firefox)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-04T07:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 20/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-04T07:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-10-04T07:49:41.515Z"
+    },
+    {
+      "id": "fa_1054",
+      "paymentId": "pay_PF800054",
+      "riskScore": 21,
+      "riskLevel": "LOW",
+      "recommendation": "ALLOW",
+      "reasons": [
+        "Clean device telemetry, verified IP geolocation, normal ticket size"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 1,
+        "isNewDevice": false,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 96,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-04T06:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100054 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-04T06:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: MacBook Pro 16\" (macOS 14)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-04T06:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 21/100 [LOW]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-04T06:49:41.515Z",
+          "status": "SUCCESS",
+          "detail": "Gate Decision: SUCCESS"
+        }
+      ],
+      "createdAt": "2026-10-04T06:49:41.515Z"
+    },
+    {
+      "id": "fa_1055",
+      "paymentId": "pay_PF800055",
+      "riskScore": 70,
+      "riskLevel": "HIGH",
+      "recommendation": "REVIEW",
+      "reasons": [
+        "Unusual velocity: multiple checkout sessions initiated from this IP",
+        "Unrecognized browser fingerprint never associated with this account"
+      ],
+      "triggeredRules": [],
+      "features": {
+        "amountDeviation": 1.1,
+        "velocityScore": 4,
+        "isNewDevice": true,
+        "isSuspiciousIp": false,
+        "locationAnomaly": false,
+        "merchantReputation": 81,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-05T05:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100055 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-05T05:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Windows 11 PC (Chrome 122)"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-05T05:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 70/100 [HIGH]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-05T05:49:41.515Z",
+          "status": "REVIEW",
+          "detail": "Gate Decision: REVIEW"
+        }
+      ],
+      "createdAt": "2026-10-05T05:49:41.515Z"
+    },
+    {
+      "id": "fa_1056",
+      "paymentId": "pay_PF800056",
+      "riskScore": 84,
+      "riskLevel": "CRITICAL",
+      "recommendation": "BLOCK",
+      "reasons": [
+        "Transaction amount (₹26,299) exceeds safety ceiling",
+        "High dispute history flagged for destination merchant: Apex QuickLoans Direct",
+        "IP reputation alert: connection originated from anonymized Tor/proxy node"
+      ],
+      "triggeredRules": [
+        {
+          "ruleId": "RULE_HIGH_AMOUNT",
+          "ruleName": "High Amount Anomaly",
+          "pointsAdded": 20,
+          "description": "Amount ₹26,299 is 4.8× average customer benchmark"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+          "ruleName": "Suspicious / Flagged Merchant",
+          "pointsAdded": 30,
+          "description": "Merchant Apex QuickLoans Direct flagged for high chargeback rates"
+        },
+        {
+          "ruleId": "RULE_SUSPICIOUS_IP",
+          "ruleName": "Threat Intelligence / Proxy IP",
+          "pointsAdded": 20,
+          "description": "IP 185.220.101.5 matches known Tor exit node"
+        }
+      ],
+      "features": {
+        "amountDeviation": 4.8,
+        "velocityScore": 1,
+        "isNewDevice": true,
+        "isSuspiciousIp": true,
+        "locationAnomaly": true,
+        "merchantReputation": 24,
+        "urlEntropy": 0.15
+      },
+      "timeline": [
+        {
+          "stage": "Order Created",
+          "timestamp": "2026-10-05T04:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Order order_PF100056 initialized"
+        },
+        {
+          "stage": "Checkout Telemetry",
+          "timestamp": "2026-10-05T04:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Device: Headless Linux Puppeteer Bot"
+        },
+        {
+          "stage": "Fraud Engine Evaluation",
+          "timestamp": "2026-10-05T04:49:41.515Z",
+          "status": "COMPLETED",
+          "detail": "Score: 84/100 [CRITICAL]"
+        },
+        {
+          "stage": "Transaction Gate",
+          "timestamp": "2026-10-05T04:49:41.515Z",
+          "status": "BLOCKED",
+          "detail": "Gate Decision: BLOCKED"
+        }
+      ],
+      "createdAt": "2026-10-05T04:49:41.515Z"
+    }
+  ],
+  "fraudRules": [
+    {
+      "id": "fr_01",
+      "ruleId": "RULE_HIGH_AMOUNT",
+      "name": "High Amount Anomaly",
+      "category": "TRANSACTION",
+      "weight": 20,
+      "enabled": true,
+      "thresholdValue": 25000,
+      "description": "Flags payments exceeding ₹25,000 or 3.5× higher than customer average ticket size."
+    },
+    {
+      "id": "fr_02",
+      "ruleId": "RULE_VELOCITY",
+      "name": "Velocity Spike Detection",
+      "category": "BEHAVIOR",
+      "weight": 25,
+      "enabled": true,
+      "thresholdValue": 3,
+      "description": "Flags customers or IPs attempting >= 3 checkout operations within a 5-minute rolling window."
+    },
+    {
+      "id": "fr_03",
+      "ruleId": "RULE_NEW_DEVICE",
+      "name": "Unrecognized Device Fingerprint",
+      "category": "DEVICE",
+      "weight": 10,
+      "enabled": true,
+      "description": "Adds risk weight when transaction originates from a browser or device never previously seen."
+    },
+    {
+      "id": "fr_04",
+      "ruleId": "RULE_SUSPICIOUS_IP",
+      "name": "Threat Intelligence / Proxy IP",
+      "category": "NETWORK",
+      "weight": 20,
+      "enabled": true,
+      "description": "Detects connections originating from commercial VPNs, Tor exit nodes, or flagged IP subnets."
+    },
+    {
+      "id": "fr_05",
+      "ruleId": "RULE_IMPOSSIBLE_TRAVEL",
+      "name": "Impossible Physical Travel",
+      "category": "BEHAVIOR",
+      "weight": 20,
+      "enabled": true,
+      "description": "Identifies rapid geographic distance hops that exceed physically plausible velocity."
+    },
+    {
+      "id": "fr_06",
+      "ruleId": "RULE_SUSPICIOUS_MERCHANT",
+      "name": "Suspicious / Flagged Merchant",
+      "category": "MERCHANT",
+      "weight": 30,
+      "enabled": true,
+      "description": "Flags payments routed to merchants with prior complaints, low trust score, or suspended status."
+    },
+    {
+      "id": "fr_07",
+      "ruleId": "RULE_SUSPICIOUS_URL",
+      "name": "Deceptive URL / Spoofed VPA",
+      "category": "NETWORK",
+      "weight": 30,
+      "enabled": true,
+      "description": "Identifies deceptive payment links, typosquatted brand names, or suspicious UPI handles."
+    }
+  ],
+  "fraudAlerts": [
+    {
+      "id": "alert_1005",
+      "alertId": "alt_2005",
+      "paymentId": "pay_PF800005",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 8900,
+      "riskScore": 70,
+      "severity": "HIGH",
+      "status": "OPEN",
+      "message": "High risk detected (70/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-12T07:49:41.504Z"
+    },
+    {
+      "id": "alert_1007",
+      "alertId": "alt_2007",
+      "paymentId": "pay_PF800007",
+      "merchantId": "merch_08",
+      "merchantName": "EduLearn Pro Certifications",
+      "amount": 36400,
+      "riskScore": 91,
+      "severity": "CRITICAL",
+      "status": "OPEN",
+      "message": "High risk detected (91/100): Transaction amount (₹36,400) exceeds safety ceiling",
+      "createdAt": "2026-09-13T05:49:41.504Z"
+    },
+    {
+      "id": "alert_1010",
+      "alertId": "alt_2010",
+      "paymentId": "pay_PF800010",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 18500,
+      "riskScore": 65,
+      "severity": "HIGH",
+      "status": "UNDER_REVIEW",
+      "message": "High risk detected (65/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-14T02:49:41.514Z"
+    },
+    {
+      "id": "alert_1014",
+      "alertId": "alt_2014",
+      "paymentId": "pay_PF800014",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 52999,
+      "riskScore": 84,
+      "severity": "CRITICAL",
+      "status": "UNDER_REVIEW",
+      "message": "High risk detected (84/100): Transaction amount (₹52,999) exceeds safety ceiling",
+      "createdAt": "2026-09-15T22:49:41.514Z"
+    },
+    {
+      "id": "alert_1015",
+      "alertId": "alt_2015",
+      "paymentId": "pay_PF800015",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 849,
+      "riskScore": 70,
+      "severity": "HIGH",
+      "status": "RESOLVED",
+      "message": "High risk detected (70/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-16T21:49:41.514Z"
+    },
+    {
+      "id": "alert_1020",
+      "alertId": "alt_2020",
+      "paymentId": "pay_PF800020",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 2299,
+      "riskScore": 65,
+      "severity": "HIGH",
+      "status": "UNDER_REVIEW",
+      "message": "High risk detected (65/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-18T16:49:41.515Z"
+    },
+    {
+      "id": "alert_1021",
+      "alertId": "alt_2021",
+      "paymentId": "pay_PF800021",
+      "merchantId": "merch_02",
+      "merchantName": "UrbanStyle Apparel",
+      "amount": 26999,
+      "riskScore": 91,
+      "severity": "CRITICAL",
+      "status": "RESOLVED",
+      "message": "High risk detected (91/100): Transaction amount (₹26,999) exceeds safety ceiling",
+      "createdAt": "2026-09-19T15:49:41.515Z"
+    },
+    {
+      "id": "alert_1025",
+      "alertId": "alt_2025",
+      "paymentId": "pay_PF800025",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 3499,
+      "riskScore": 70,
+      "severity": "HIGH",
+      "status": "OPEN",
+      "message": "High risk detected (70/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-21T11:49:41.515Z"
+    },
+    {
+      "id": "alert_1028",
+      "alertId": "alt_2028",
+      "paymentId": "pay_PF800028",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 25799,
+      "riskScore": 84,
+      "severity": "CRITICAL",
+      "status": "UNDER_REVIEW",
+      "message": "High risk detected (84/100): Transaction amount (₹25,799) exceeds safety ceiling",
+      "createdAt": "2026-09-22T08:49:41.515Z"
+    },
+    {
+      "id": "alert_1030",
+      "alertId": "alt_2030",
+      "paymentId": "pay_PF800030",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 14500,
+      "riskScore": 65,
+      "severity": "HIGH",
+      "status": "RESOLVED",
+      "message": "High risk detected (65/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-23T06:49:41.515Z"
+    },
+    {
+      "id": "alert_1035",
+      "alertId": "alt_2035",
+      "paymentId": "pay_PF800035",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 49000,
+      "riskScore": 91,
+      "severity": "CRITICAL",
+      "status": "OPEN",
+      "message": "High risk detected (91/100): Transaction amount (₹49,000) exceeds safety ceiling",
+      "createdAt": "2026-09-26T01:49:41.515Z"
+    },
+    {
+      "id": "alert_1040",
+      "alertId": "alt_2040",
+      "paymentId": "pay_PF800040",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 1799,
+      "riskScore": 65,
+      "severity": "HIGH",
+      "status": "UNDER_REVIEW",
+      "message": "High risk detected (65/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-27T20:49:41.515Z"
+    },
+    {
+      "id": "alert_1042",
+      "alertId": "alt_2042",
+      "paymentId": "pay_PF800042",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 38500,
+      "riskScore": 84,
+      "severity": "CRITICAL",
+      "status": "RESOLVED",
+      "message": "High risk detected (84/100): Transaction amount (₹38,500) exceeds safety ceiling",
+      "createdAt": "2026-09-28T18:49:41.515Z"
+    },
+    {
+      "id": "alert_1045",
+      "alertId": "alt_2045",
+      "paymentId": "pay_PF800045",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 2999,
+      "riskScore": 70,
+      "severity": "HIGH",
+      "status": "RESOLVED",
+      "message": "High risk detected (70/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-09-30T15:49:41.515Z"
+    },
+    {
+      "id": "alert_1049",
+      "alertId": "alt_2049",
+      "paymentId": "pay_PF800049",
+      "merchantId": "merch_10",
+      "merchantName": "StreamWave Music",
+      "amount": 27499,
+      "riskScore": 91,
+      "severity": "CRITICAL",
+      "status": "OPEN",
+      "message": "High risk detected (91/100): Transaction amount (₹27,499) exceeds safety ceiling",
+      "createdAt": "2026-10-02T11:49:41.515Z"
+    },
+    {
+      "id": "alert_1050",
+      "alertId": "alt_2050",
+      "paymentId": "pay_PF800050",
+      "merchantId": "merch_01",
+      "merchantName": "NovaTech Electronics",
+      "amount": 28999,
+      "riskScore": 65,
+      "severity": "HIGH",
+      "status": "UNDER_REVIEW",
+      "message": "High risk detected (65/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-10-02T10:49:41.515Z"
+    },
+    {
+      "id": "alert_1055",
+      "alertId": "alt_2055",
+      "paymentId": "pay_PF800055",
+      "merchantId": "merch_06",
+      "merchantName": "FitPulse Supplements",
+      "amount": 12400,
+      "riskScore": 70,
+      "severity": "HIGH",
+      "status": "OPEN",
+      "message": "High risk detected (70/100): Unusual velocity: multiple checkout sessions initiated from this IP",
+      "createdAt": "2026-10-05T05:49:41.515Z"
+    },
+    {
+      "id": "alert_1056",
+      "alertId": "alt_2056",
+      "paymentId": "pay_PF800056",
+      "merchantId": "merch_suspicious_01",
+      "merchantName": "Apex QuickLoans Direct",
+      "amount": 26299,
+      "riskScore": 84,
+      "severity": "CRITICAL",
+      "status": "UNDER_REVIEW",
+      "message": "High risk detected (84/100): Transaction amount (₹26,299) exceeds safety ceiling",
+      "createdAt": "2026-10-05T04:49:41.515Z"
+    }
+  ],
+  "refunds": [
+    {
+      "id": "ref_1011",
+      "refundId": "ref_PF900011",
+      "paymentId": "pay_PF800011",
+      "orderId": "order_PF100011",
+      "merchantId": "merch_02",
+      "amount": 25000,
+      "currency": "INR",
+      "reason": "Customer initiated return within 7-day guarantee",
+      "type": "FULL",
+      "status": "PROCESSED",
+      "createdAt": "2026-09-16T01:49:41.514Z"
+    },
+    {
+      "id": "ref_1023",
+      "refundId": "ref_PF900023",
+      "paymentId": "pay_PF800023",
+      "orderId": "order_PF100023",
+      "merchantId": "merch_04",
+      "amount": 25000,
+      "currency": "INR",
+      "reason": "Customer initiated return within 7-day guarantee",
+      "type": "FULL",
+      "status": "PROCESSED",
+      "createdAt": "2026-09-21T13:49:41.515Z"
+    }
+  ],
+  "apiKeys": [
+    {
+      "id": "key_01",
+      "keyId": "key_test_01",
+      "merchantId": "merch_01",
+      "name": "Default Web Store Checkout Key",
+      "keyPrefix": "pf_test_live_",
+      "maskedKey": "pf_test_live_a89f...3e29",
+      "secretHash": "seeded_sha256_dummy_hash_01",
+      "environment": "sandbox",
+      "revoked": false,
+      "lastUsed": "10 minutes ago",
+      "createdAt": "2026-09-22T12:49:41.519Z"
+    },
+    {
+      "id": "key_02",
+      "keyId": "key_test_02",
+      "merchantId": "merch_01",
+      "name": "Mobile App Integration Key",
+      "keyPrefix": "pf_test_app_",
+      "maskedKey": "pf_test_app_c410...9b12",
+      "secretHash": "seeded_sha256_dummy_hash_02",
+      "environment": "sandbox",
+      "revoked": false,
+      "lastUsed": "2 days ago",
+      "createdAt": "2026-09-07T12:49:41.519Z"
+    }
+  ],
+  "webhookEvents": [
+    {
+      "id": "whe_01",
+      "eventId": "evt_982103",
+      "merchantId": "merch_01",
+      "eventType": "payment.success",
+      "payload": {
+        "paymentId": "pay_PF800055",
+        "amount": 4999,
+        "status": "SUCCESS"
+      },
+      "deliveryStatus": "DELIVERED",
+      "attempts": 1,
+      "responseCode": 200,
+      "createdAt": "2026-10-07T11:49:41.521Z"
+    },
+    {
+      "id": "whe_02",
+      "eventId": "evt_982104",
+      "merchantId": "merch_01",
+      "eventType": "fraud.detected",
+      "payload": {
+        "paymentId": "pay_PF800049",
+        "riskScore": 88,
+        "severity": "CRITICAL",
+        "status": "BLOCKED"
+      },
+      "deliveryStatus": "DELIVERED",
+      "attempts": 1,
+      "responseCode": 200,
+      "createdAt": "2026-10-07T10:49:41.521Z"
+    }
+  ],
+  "securityLogs": [
+    {
+      "id": "log_01",
+      "action": "SYSTEM_BOOT",
+      "actorEmail": "system@payguard.io",
+      "actorRole": "SYSTEM",
+      "ip": "127.0.0.1",
+      "details": "PayGuard Fraud Engine v2.4 initialized with active security rules",
+      "createdAt": "2026-10-07T12:47:41.522Z"
+    },
+    {
+      "id": "log_02",
+      "action": "FRAUD_RULE_EVALUATED",
+      "actorEmail": "analyst@payguard.io",
+      "actorRole": "SECURITY_ANALYST",
+      "ip": "10.0.4.12",
+      "details": "Rule RULE_HIGH_AMOUNT threshold audited and confirmed",
+      "createdAt": "2026-10-07T12:48:41.522Z"
+    },
+    {
+      "id": "log_03",
+      "action": "MERCHANT_STATUS_CHANGED",
+      "actorEmail": "admin@payguard.io",
+      "actorRole": "ADMIN",
+      "ip": "10.0.1.5",
+      "details": "Merchant Apex QuickLoans Direct suspended due to fraud reports",
+      "createdAt": "2026-10-07T12:49:11.522Z"
+    }
+  ],
+  "thresholds": {
+    "low": 29,
+    "medium": 59,
+    "high": 79,
+    "critical": 80
+  }
+}

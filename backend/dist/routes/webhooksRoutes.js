@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const webhooksController_1 = require("../controllers/webhooksController");
+const auth_1 = require("../middleware/auth");
+const router = (0, express_1.Router)();
+router.post('/', auth_1.authenticateJwt, webhooksController_1.configureWebhook);
+router.get('/', auth_1.authenticateJwt, webhooksController_1.getWebhookConfig);
+router.post('/test', auth_1.authenticateJwt, webhooksController_1.testWebhook);
+router.get('/events', auth_1.authenticateJwt, webhooksController_1.getWebhookEvents);
+exports.default = router;

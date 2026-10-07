@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const fraudController_1 = require("../controllers/fraudController");
+const auth_1 = require("../middleware/auth");
+const router = (0, express_1.Router)();
+router.post('/analyze', fraudController_1.analyzeAdHoc);
+router.post('/simulate', fraudController_1.runSimulation);
+router.get('/alerts', auth_1.authenticateJwt, fraudController_1.getFraudAlerts);
+router.patch('/alerts/:id', auth_1.authenticateJwt, fraudController_1.updateAlertStatus);
+router.get('/:paymentId', auth_1.authenticateJwt, fraudController_1.getFraudInvestigation);
+exports.default = router;

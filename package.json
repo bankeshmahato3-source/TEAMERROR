@@ -1,0 +1,17 @@
+{
+  "name": "payguard-workspace",
+  "version": "1.0.0",
+  "description": "PayGuard - Fintech Cybersecurity & Fraud Detection System",
+  "scripts": {
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "dev:frontend": "npm.cmd --prefix frontend run dev",
+    "dev:server": "npm.cmd --prefix backend run dev",
+    "dev:client": "npm.cmd --prefix frontend run dev",
+    "dev": "concurrently \"npm.cmd --prefix backend run dev\" \"npm.cmd --prefix frontend run dev\"",
+    "build": "npm.cmd --prefix backend run build && npm.cmd --prefix frontend run build",
+    "seed": "npm.cmd --prefix backend run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
