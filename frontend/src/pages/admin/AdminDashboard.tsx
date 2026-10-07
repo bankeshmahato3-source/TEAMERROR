@@ -17,20 +17,23 @@ export const AdminDashboard: React.FC = () => {
   const [users, setUsers] = useState<any[]>([]);
   const [merchants, setMerchants] = useState<any[]>([]);
   const [stats, setStats] = useState<any>(null);
+  const [crawlerMetrics, setCrawlerMetrics] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
   const loadData = async () => {
     try {
       setLoading(true);
-      const [uRes, mRes, sRes] = await Promise.all([
+      const [uRes, mRes, sRes, cRes] = await Promise.all([
         api.get('/admin/users'),
         api.get('/admin/merchants'),
         api.get('/dashboard/stats'),
+        api.get('/crawler/metrics')
       ]);
 
       if (uRes.data.success) setUsers(uRes.data.users);
       if (mRes.data.success) setMerchants(mRes.data.merchants);
       if (sRes.data.success) setStats(sRes.data.stats);
+      if (cRes.data.success) setCrawlerMetrics(cRes.data.data);
     } catch (err) {
       console.error('Failed to load admin data:', err);
     } finally {
@@ -111,6 +114,22 @@ export const AdminDashboard: React.FC = () => {
             </div>
             <span className="text-[10px] text-slate-500">Sandbox lifecycle records</span>
           </div>
+        </div>
+
+        {/* Threat Discovery Crawler Widget */}
+        <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 to-slate-800 border border-slate-700 flex justify-between items-center shadow-lg">
+          <div>
+            <h3 className="text-lg font-bold text-slate-100 flex items-center gap-2">
+              <ShieldAlert className="w-5 h-5 text-blue-400" />
+              Threat Discovery Crawler
+            </h3>
+            <p className="text-sm text-slate-400 mt-1">
+              Crawler Health: <strong className="text-yellow-400">{crawlerMetrics?.pending || 0}</strong> pending scans, <strong className="text-rose-400">{crawlerMetrics?.critical || 0}</strong> critical threats found.
+            </p>
+          </div>
+          <Link to="/admin/crawler/detections" className="px-4 py-2 bg-blue-600/20 text-blue-400 border border-blue-500/50 hover:bg-blue-600/40 text-sm font-semibold rounded-lg transition-colors">
+            View SOC Detections &rarr;
+          </Link>
         </div>
 
         {/* Merchants Roster Table */}

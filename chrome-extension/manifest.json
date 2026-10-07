@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "PayGuard Crawler Helper",
+  "version": "1.0",
+  "description": "Send current page to PayGuard Local Crawler",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

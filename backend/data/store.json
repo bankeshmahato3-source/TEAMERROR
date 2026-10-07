@@ -5768,6 +5768,132 @@
   ],
   "securityLogs": [
     {
+      "id": "log_1791389431680_836",
+      "action": "USER_LOGGED_IN",
+      "actorEmail": "analyst@payguard.io",
+      "actorRole": "SECURITY_ANALYST",
+      "ip": "127.0.0.1",
+      "details": "Successful login",
+      "createdAt": "2026-10-07T16:10:31.680Z"
+    },
+    {
+      "id": "log_1791386099527_200",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"https://developer.phonepee.com/\" - Score: 40/100 [MEDIUM]",
+      "createdAt": "2026-10-07T15:14:59.527Z"
+    },
+    {
+      "id": "log_1791386090216_872",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"https://developer.phonepe.com/\" - Score: 5/100 [LOW]",
+      "createdAt": "2026-10-07T15:14:50.216Z"
+    },
+    {
+      "id": "log_1791386071345_441",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"https://paytm-refund-claim-bonus.xyz/cla\" - Score: 100/100 [CRITICAL]",
+      "createdAt": "2026-10-07T15:14:31.345Z"
+    },
+    {
+      "id": "log_1791385800973_59",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"https://developer.phonepee.com/\" - Score: 40/100 [MEDIUM]",
+      "createdAt": "2026-10-07T15:10:00.973Z"
+    },
+    {
+      "id": "log_1791385785570_910",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"https://developer.phonepe.com245/\" - Score: 5/100 [LOW]",
+      "createdAt": "2026-10-07T15:09:45.570Z"
+    },
+    {
+      "id": "log_1791385765845_800",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"https://developer.phonepe.com/\" - Score: 5/100 [LOW]",
+      "createdAt": "2026-10-07T15:09:25.845Z"
+    },
+    {
+      "id": "log_1791385598684_336",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"prasanjitkaushal@axl\" - Score: 10/100 [LOW]",
+      "createdAt": "2026-10-07T15:06:38.684Z"
+    },
+    {
+      "id": "log_1791385589691_590",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"prasanjitkaushal@axlikurt\" - Score: 30/100 [MEDIUM]",
+      "createdAt": "2026-10-07T15:06:29.691Z"
+    },
+    {
+      "id": "log_1791385587564_684",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"prasanjitkaushal@axlikurt\" - Score: 30/100 [MEDIUM]",
+      "createdAt": "2026-10-07T15:06:27.564Z"
+    },
+    {
+      "id": "log_1791385511158_943",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"prasanjitkaushal@axli\" - Score: 30/100 [MEDIUM]",
+      "createdAt": "2026-10-07T15:05:11.158Z"
+    },
+    {
+      "id": "log_1791385497244_303",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"prasanjitkaushal@axl\" - Score: 10/100 [LOW]",
+      "createdAt": "2026-10-07T15:04:57.244Z"
+    },
+    {
+      "id": "log_1791385348880_713",
+      "action": "UPI_SCAM_CHECK",
+      "actorEmail": "guest@payguard.io",
+      "actorRole": "USER",
+      "ip": "127.0.0.1",
+      "details": "Checked target \"https://paytm-refund-claim-bonus.xyz/cla\" - Score: 100/100 [CRITICAL]",
+      "createdAt": "2026-10-07T15:02:28.880Z"
+    },
+    {
+      "id": "log_1791385247230_950",
+      "action": "USER_LOGGED_IN",
+      "actorEmail": "admin@payguard.io",
+      "actorRole": "ADMIN",
+      "ip": "127.0.0.1",
+      "details": "Successful login",
+      "createdAt": "2026-10-07T15:00:47.230Z"
+    },
+    {
       "id": "log_01",
       "action": "SYSTEM_BOOT",
       "actorEmail": "system@payguard.io",
@@ -5795,6 +5921,94 @@
       "createdAt": "2026-10-07T12:49:11.522Z"
     }
   ],
+  "crawlerCandidates": [
+    {
+      "id": "crl_det_a1b2c3d4",
+      "normalizedUrl": "http://paytm-kyc-verify.buzz",
+      "originalUrl": "paytm-kyc-verify.buzz",
+      "status": "FETCHED",
+      "firstSeen": "2026-10-06T14:25:00.843Z",
+      "lastUpdated": "2026-10-07T14:25:00.843Z",
+      "sourceRefs": [
+        {
+          "sourceId": "fixture",
+          "timestamp": 1791383100844
+        }
+      ],
+      "lexicalScore": 0.9,
+      "cloneScore": 95,
+      "finalScore": 95,
+      "riskLevel": "CRITICAL",
+      "scoreReasons": [
+        "Exact brand match found: \"paytm\"",
+        "Contains password input field",
+        "Form posts to third-party domain: badguy.ru"
+      ],
+      "campaignId": "crl_cmp_xyz789"
+    },
+    {
+      "id": "crl_det_e5f6g7h8",
+      "normalizedUrl": "http://hdfcbank-rewards.xyz",
+      "originalUrl": "hdfcbank-rewards.xyz",
+      "status": "CONFIRMED",
+      "firstSeen": "2026-10-07T13:25:00.844Z",
+      "lastUpdated": "2026-10-07T14:25:00.844Z",
+      "sourceRefs": [
+        {
+          "sourceId": "certstream",
+          "timestamp": 1791383100844
+        }
+      ],
+      "lexicalScore": 0.8,
+      "cloneScore": 85,
+      "finalScore": 85,
+      "riskLevel": "CRITICAL",
+      "scoreReasons": [
+        "Exact brand match found: \"hdfc\"",
+        "Contains OTP references"
+      ],
+      "campaignId": "crl_cmp_xyz789"
+    },
+    {
+      "id": "crl_det_i9j0k1l2",
+      "normalizedUrl": "http://amazon-pay-support.online",
+      "originalUrl": "amazon-pay-support.online",
+      "status": "FETCHED",
+      "firstSeen": "2026-10-07T12:25:00.844Z",
+      "lastUpdated": "2026-10-07T14:25:00.844Z",
+      "sourceRefs": [
+        {
+          "sourceId": "crtsh",
+          "timestamp": 1791383100844
+        }
+      ],
+      "lexicalScore": 0.6,
+      "cloneScore": 40,
+      "finalScore": 40,
+      "riskLevel": "MEDIUM",
+      "scoreReasons": [
+        "Risky TLD: .online",
+        "Contains risky keyword: \"support\""
+      ]
+    }
+  ],
+  "crawlerEvidence": [],
+  "crawlerCampaigns": [
+    {
+      "id": "crl_cmp_xyz789",
+      "name": "Threat Campaign xyz789",
+      "status": "ACTIVE",
+      "riskLevel": "CRITICAL",
+      "firstSeen": "2026-10-06T14:25:00.844Z",
+      "lastUpdated": "2026-10-07T14:25:00.844Z",
+      "candidateIds": [
+        "crl_det_a1b2c3d4",
+        "crl_det_e5f6g7h8"
+      ],
+      "entityIds": []
+    }
+  ],
+  "crawlerEntities": [],
   "thresholds": {
     "low": 29,
     "medium": 59,

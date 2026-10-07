@@ -16,6 +16,7 @@ import apiKeysRoutes from './routes/apiKeysRoutes';
 import webhooksRoutes from './routes/webhooksRoutes';
 import adminRoutes from './routes/adminRoutes';
 import verifyRoutes from './routes/verifyRoutes';
+import crawlerRoutes from './crawler/api/crawlerRoutes';
 
 dotenv.config();
 
@@ -84,6 +85,7 @@ app.use('/api/api-keys', apiKeysRoutes);
 app.use('/api/webhooks', webhooksRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/verify', verifyRoutes);
+app.use('/api/crawler', crawlerRoutes);
 
 // Fallback 404 handler
 app.use((req, res) => {

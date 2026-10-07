@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { CrawlerCandidate, CrawlerEvidence, CrawlerCampaign, CrawlerEntity } from '../crawler/types';
 import {
   IUser,
   IMerchant,
@@ -26,6 +27,10 @@ interface DatabaseData {
   apiKeys: IApiKey[];
   webhookEvents: IWebhookEvent[];
   securityLogs: ISecurityLog[];
+  crawlerCandidates: CrawlerCandidate[];
+  crawlerEvidence: CrawlerEvidence[];
+  crawlerCampaigns: CrawlerCampaign[];
+  crawlerEntities: CrawlerEntity[];
   thresholds: {
     low: number;      // 0 - 29 (ALLOW)
     medium: number;   // 30 - 59 (MONITOR)
@@ -50,6 +55,10 @@ class MemoryStore {
     apiKeys: [],
     webhookEvents: [],
     securityLogs: [],
+    crawlerCandidates: [],
+    crawlerEvidence: [],
+    crawlerCampaigns: [],
+    crawlerEntities: [],
     thresholds: {
       low: 29,
       medium: 59,
@@ -69,7 +78,14 @@ class MemoryStore {
       }
       if (fs.existsSync(DATA_FILE)) {
         const raw = fs.readFileSync(DATA_FILE, 'utf-8');
-        this.data = JSON.parse(raw);
+        const parsed = JSON.parse(raw);
+        this.data = { ...this.data, ...parsed };
+        
+        // Ensure new crawler arrays exist for backwards compatibility
+        this.data.crawlerCandidates = this.data.crawlerCandidates || [];
+        this.data.crawlerEvidence = this.data.crawlerEvidence || [];
+        this.data.crawlerCampaigns = this.data.crawlerCampaigns || [];
+        this.data.crawlerEntities = this.data.crawlerEntities || [];
       }
     } catch (err) {
       console.warn('[Store] Could not load persisted file, initializing fresh memory state.');
@@ -131,6 +147,19 @@ class MemoryStore {
   get securityLogs(): ISecurityLog[] { return this.data.securityLogs; }
   set securityLogs(l: ISecurityLog[]) { this.data.securityLogs = l; this.saveToDisk(); }
 
+  // Crawler Collections
+  get crawlerCandidates(): CrawlerCandidate[] { return this.data.crawlerCandidates; }
+  set crawlerCandidates(c: CrawlerCandidate[]) { this.data.crawlerCandidates = c; this.saveToDisk(); }
+
+  get crawlerEvidence(): CrawlerEvidence[] { return this.data.crawlerEvidence; }
+  set crawlerEvidence(e: CrawlerEvidence[]) { this.data.crawlerEvidence = e; this.saveToDisk(); }
+
+  get crawlerCampaigns(): CrawlerCampaign[] { return this.data.crawlerCampaigns; }
+  set crawlerCampaigns(c: CrawlerCampaign[]) { this.data.crawlerCampaigns = c; this.saveToDisk(); }
+
+  get crawlerEntities(): CrawlerEntity[] { return this.data.crawlerEntities; }
+  set crawlerEntities(e: CrawlerEntity[]) { this.data.crawlerEntities = e; this.saveToDisk(); }
+
   // Thresholds
   get thresholds() { return this.data.thresholds; }
   set thresholds(t) { this.data.thresholds = t; this.saveToDisk(); }
@@ -149,6 +178,10 @@ class MemoryStore {
       apiKeys: [],
       webhookEvents: [],
       securityLogs: [],
+      crawlerCandidates: [],
+      crawlerEvidence: [],
+      crawlerCampaigns: [],
+      crawlerEntities: [],
       thresholds: {
         low: 29,
         medium: 59,

@@ -50,6 +50,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ type }) => {
     { label: 'Merchants Roster', to: '/admin/merchants', icon: Store },
     { label: 'Platform Users', to: '/admin/users', icon: Users },
     { label: 'Audit Security Logs', to: '/admin/logs', icon: FileText },
+    { label: 'Crawler', to: '/admin/crawler', icon: ShieldAlert },
   ];
 
   const links =

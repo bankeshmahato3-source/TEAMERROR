@@ -35,10 +35,15 @@ import { MerchantSecurity } from './pages/merchant/MerchantSecurity';
 import { MerchantApiKeys } from './pages/merchant/MerchantApiKeys';
 import { MerchantWebhooks } from './pages/merchant/MerchantWebhooks';
 
-// Admin Console
 import { AdminDashboard } from './pages/admin/AdminDashboard';
 import { AdminFraudRules } from './pages/admin/AdminFraudRules';
 import { AdminLogs } from './pages/admin/AdminLogs';
+
+// Crawler Pages
+import { CrawlerDetections } from './pages/crawler/CrawlerDetections';
+import { CrawlerDetectionDetails } from './pages/crawler/CrawlerDetectionDetails';
+import { CrawlerCampaigns } from './pages/crawler/CrawlerCampaigns';
+import { ManualCrawler } from './pages/crawler/ManualCrawler';
 
 export const App: React.FC = () => {
   return (
@@ -89,6 +94,12 @@ export const App: React.FC = () => {
           <Route path="/admin/users" element={<AdminDashboard />} />
           <Route path="/admin/fraud-rules" element={<AdminFraudRules />} />
           <Route path="/admin/logs" element={<AdminLogs />} />
+
+          {/* Crawler Routes */}
+          <Route path="/admin/crawler" element={<ManualCrawler />} />
+          <Route path="/admin/crawler/detections" element={<CrawlerDetections />} />
+          <Route path="/admin/crawler/detections/:id" element={<CrawlerDetectionDetails />} />
+          <Route path="/admin/crawler/campaigns" element={<CrawlerCampaigns />} />
         </Routes>
       </div>
 

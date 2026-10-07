@@ -21,6 +21,10 @@ class MemoryStore {
         apiKeys: [],
         webhookEvents: [],
         securityLogs: [],
+        crawlerCandidates: [],
+        crawlerEvidence: [],
+        crawlerCampaigns: [],
+        crawlerEntities: [],
         thresholds: {
             low: 29,
             medium: 59,
@@ -89,6 +93,15 @@ class MemoryStore {
     // SecurityLogs
     get securityLogs() { return this.data.securityLogs; }
     set securityLogs(l) { this.data.securityLogs = l; this.saveToDisk(); }
+    // Crawler Collections
+    get crawlerCandidates() { return this.data.crawlerCandidates; }
+    set crawlerCandidates(c) { this.data.crawlerCandidates = c; this.saveToDisk(); }
+    get crawlerEvidence() { return this.data.crawlerEvidence; }
+    set crawlerEvidence(e) { this.data.crawlerEvidence = e; this.saveToDisk(); }
+    get crawlerCampaigns() { return this.data.crawlerCampaigns; }
+    set crawlerCampaigns(c) { this.data.crawlerCampaigns = c; this.saveToDisk(); }
+    get crawlerEntities() { return this.data.crawlerEntities; }
+    set crawlerEntities(e) { this.data.crawlerEntities = e; this.saveToDisk(); }
     // Thresholds
     get thresholds() { return this.data.thresholds; }
     set thresholds(t) { this.data.thresholds = t; this.saveToDisk(); }
@@ -106,6 +119,10 @@ class MemoryStore {
             apiKeys: [],
             webhookEvents: [],
             securityLogs: [],
+            crawlerCandidates: [],
+            crawlerEvidence: [],
+            crawlerCampaigns: [],
+            crawlerEntities: [],
             thresholds: {
                 low: 29,
                 medium: 59,
