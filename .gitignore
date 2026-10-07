@@ -1,1 +1,11 @@
-node_modules
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+backend/data/
